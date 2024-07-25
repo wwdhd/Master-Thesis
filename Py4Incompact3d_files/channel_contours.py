@@ -20,13 +20,14 @@ plt.ioff()
 REFPATH="./"
 INPUT_FILE="input.json"
 
-t = "43125" ###TIME MODIFY###
+#### TIME INPUT ######
+t = "43125" 
 
 
 
 
 def main():
-    
+    # Gathering the data
     postprocess = Postprocess(INPUT_FILE)
     mesh = postprocess.mesh
     yp = mesh.get_grid()[1]
@@ -49,21 +50,24 @@ def main():
 
 
     print("========================================================================")
-
+    #Calculating flow properties
     retau = 180
     reb = (np.exp(np.log(180/0.09) / 0.88) / 2) 
     print(f"The value of reb is approximately {reb:.4f}")
-
-    rho = 1  # density (kg/m^3)
+    
+    rho = 1  # density
     ub = np.mean(umean)
-    nu = 1/reb  # kinematic viscosity (m^2/s)  
+    nu = 1/reb  # kinematic viscosity
 
+    #Printing Mesh Size for Double Check
     print("Mesh Size")
     print(f"z elements = {len(umean[0][0])}") # Z
     print(f"y elements = {len(umean[0])}") # Y
     print(f"x elements = {len(umean)}") # X
     
     print("========================================================================")
+    
+    #Slice Plane
     x_coordinates = []
     for f in range(0,len(umean)):
         x_float = f*mesh.dx ; x_coordinates.append(x_float)
@@ -76,35 +80,37 @@ def main():
     for f in range(0,len(umean[0][0])):
         z_float = f*mesh.dz ; z_coordinates.append(z_float)
         
-    
     X, Y = np.meshgrid(x_coordinates, y_coordinates, indexing='ij')  
     Y2, Z = np.meshgrid(y_coordinates, z_coordinates, indexing='ij')  
     dim = mesh.Lz/2
-    
     dim1 = dim/mesh.dz
-    
 
         
-
+    #Velocity Gradient (for tau_wall)
     du = np.gradient(umean, axis=1)
     dy = np.gradient(y_coordinates)
-
     dudy = du/dy[:,np.newaxis]
-    slice_dudy = dudy[:,:,int(dim1)]
     
+    
+    #Slice Plane Contour Plot
     side_contour(umean, t, X, Y, dim1, "Umean")
     side_contour(vmean, t, X, Y, dim1, "Vmean")
     side_contour(wmean, t, X, Y, dim1, "Wmean")
     side_contour(dudy, t, X, Y, dim1, "dudy")
     
+    
+    #Calculating Cf
     cf_total = cf_calculation(rho, nu, dudy, dim1, X, Y, ub)
     
+    
+    #Plotting U+ vs Y+, obtaining utau and yplus
     utau, yplus = upyp_calc(rho, nu, umean, yp, mesh, cf_total)
-    
-    print("========================================================================")
-    
+    print("   ")
+    print("   ")
     print("u_tau", utau)
     
+    
+    #Prime-prime calculation
     print("========================================================================")
     print("<u'u'>")
     prime_calc(umean, umean, uumean, utau, nu, yp, "$<u'u'>^+$", "upup")
@@ -114,9 +120,6 @@ def main():
     print("========================================================================")
     print("<w'w'>")
     prime_calc(wmean, wmean, wwmean, utau, nu, yp, "$<w'w'>^+$", "wpwp")
-    
-    
-    
     
     print("========================================================================")
     print("<u'v'>")
