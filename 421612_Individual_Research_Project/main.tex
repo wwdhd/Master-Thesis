@@ -1,0 +1,170 @@
+\documentclass[12pt]{article}
+\input{preamble.tex}
+\makenomenclature
+
+\renewcommand{\nomname}{Nomenclature}
+
+\renewcommand{\nompreamble}{The next list describes several symbols that will be later used within the body of the document}
+
+\begin{document}
+
+\input{cover.tex}
+
+\clearpage
+\pagestyle{plain}
+\pagestyle{fancy}
+\fancyhead[R]{} 
+\fancyhead[L]{}
+\clearpage
+
+\spacing{1.2}
+\pagenumbering{Roman}
+
+
+\section*{Academic Integrity Declaration}
+
+I declare that:
+
+\begin{itemize}
+  \item  the thesis submitted has been written by me alone.
+  \item  the thesis submitted has not been previously submitted to this university or any
+other.
+\item  that all content, including primary and/or secondary data, is true to the best of my
+knowledge.
+\item  that all quotations and references have been duly acknowledged according to the
+requirements of academic research.
+\end{itemize} 
+
+I understand that to knowingly submit work in violation of the above statement will be
+considered by examiners as academic misconduct.
+
+
+
+\clearpage
+\pagestyle{plain}
+\pagestyle{fancy}
+\fancyhead[R]{ABSTRACT} 
+\fancyhead[L]{}
+\clearpage
+
+\spacing{1.2}
+\pagenumbering{Roman}
+
+
+\section*{Abstract}
+
+
+
+
+\clearpage
+\pagestyle{plain}
+\pagestyle{fancy}
+\fancyhead[R]{ACKNOWLEDGEMENT} 
+\fancyhead[L]{}
+\clearpage
+
+\spacing{1.2}
+\pagenumbering{Roman}
+
+
+\section*{Acknowledgement}
+
+
+
+
+
+
+%\addtocontents{toc}{\protect\thispagestyle{empty}} % for the first page
+\clearpage
+{
+  \hypersetup{linkcolor=black}
+  \pagestyle{fancy}
+    \fancyhead[R]{TABLE OF CONTENTS} 
+    \fancyhead[L]{}
+  \tableofcontents
+  \clearpage
+    \pagestyle{fancy}
+    \fancyhead[R]{LIST OF FIGURES} 
+    \fancyhead[L]{}
+  \addcontentsline{toc}{section}{List of figures}
+  \listoffigures
+  \clearpage
+    \pagestyle{fancy}
+    \fancyhead[R]{LIST OF TABLES} 
+    \fancyhead[L]{}
+  \addcontentsline{toc}{section}{List of tables}
+  \listoftables
+}
+
+%\clearpage
+
+
+%\clearpage
+%\nomenclature{EFD}{Experimental Fluid Dynamics}
+%%\nomenclature{CFD}{Computational Fluid Dynamics}
+%\nomenclature{CRWTs}{Common Research Wind Tunnels}
+%\nomenclature{RANS}{Reynolds-averaged Navier-Stokes }
+
+
+
+
+
+%\addcontentsline{toc}{section}{Nomenclature}
+%\printnomenclature
+%\setlength{\parskip}{0.5cm}
+
+
+
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+\sloppy
+\pagestyle{fancy}
+\lhead{\small{}}
+\rhead{{\small{LIST OF SYMBOLS AND ABBREVIATIONS}}}
+\input{Nomenclature.tex}
+
+%\nocite{*}
+\clearpage
+\pagestyle{fancy}
+\lhead{\small{}}
+\rhead{{\small{1. INTRODUCTION}}}
+\input{Sections/1. Introduction}
+\clearpage
+\pagestyle{fancy}
+\lhead{\small{}}
+\rhead{{\small{2. METHODOLOGY}}}
+\input{Sections/2. Methodology}
+\clearpage
+\pagestyle{fancy}
+\lhead{\small{}}
+\rhead{{\small{3. RESULTS AND DISCUSSION}}}
+\input{Sections/3. Results}
+\clearpage
+\pagestyle{fancy}
+\lhead{\small{}}
+\rhead{{\small{4. CONCLUSIONS AND RECOMMENDATIONS}}}
+\input{Sections/4. Conclusions and Recommendations}
+%\clearpage
+%\pagestyle{fancy}
+%\lhead{\small{}}
+%\rhead{{\small{5. RECOMMENDATIONS FOR FUTURE WORK}}}
+%\input{Sections/5. Recommendations for Future Work}
+\clearpage
+\spacing{1.5}
+\pagestyle{fancy}
+\lhead{\small{}}
+\rhead{{\small{BIBLIOGRAPHY}}}
+\printbibliography[heading=bibintoc,title={References}]
+\clearpage
+\spacing{1.5}
+\pagestyle{fancy}
+\lhead{\small{}}
+\rhead{{\small{APPENDIX}}}
+\section*{APPENDIX}
+\appendix
+\input{Sections/Appendix/Annex_YZ slices deformationbaseline}
+\end{document}
+
