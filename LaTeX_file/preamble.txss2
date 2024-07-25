@@ -1,0 +1,96 @@
+{
+    "InternalPDFViewer": {
+        "Embedded": false,
+        "File": ""
+    },
+    "Session": {
+        "Bookmarks": [
+        ],
+        "CurrentFile": "Sections/3. Results.tex",
+        "FileVersion": 1,
+        "Files": [
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "cover.tex",
+                "FirstLine": 1,
+                "FoldedLines": "",
+                "Line": 6
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "main.tex",
+                "FirstLine": 140,
+                "FoldedLines": "",
+                "Line": 165
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Nomenclature.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "preamble.tex",
+                "FirstLine": 139,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 9,
+                "EditorGroup": 0,
+                "FileName": "References.bib",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 23
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Sections/Appendix/Annex_YZ slices deformationbaseline.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Sections/4. Conclusions and Recommendations.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 9
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Sections/1. Introduction.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Sections/2. Methodology.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Sections/3. Results.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            }
+        ],
+        "MasterFile": "",
+        "VerticalSplit": true
+    }
+}

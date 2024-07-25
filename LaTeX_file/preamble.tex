@@ -1,0 +1,171 @@
+
+
+\usepackage[english]{babel}
+\usepackage{newtxtext} % Times-like font
+\usepackage{longtable}
+
+\usepackage{csquotes}
+\usepackage[T1]{fontenc} 
+\usepackage[a4paper]{geometry}
+\usepackage{parskip}
+\usepackage{textcomp}
+\usepackage{esvect}
+
+\usepackage{bm}
+\usepackage{pdflscape}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{tikz}
+\usepackage{graphicx}% Pictures
+\usepackage{amsmath}% to set nice equations
+\usepackage{amssymb}% math symbols
+\usepackage[hidelinks]{hyperref} %clickable references without colors
+\setlength{\parindent}{20pt}
+%\usepackage{subcaption}
+\usepackage{geometry}
+ \geometry{ 
+ a4paper,
+ left=30mm,
+ top=30mm,
+ right=30mm,
+ bottom=30mm,
+ }
+\usepackage{subfiles} %Sub files
+\usepackage{subfig}%two figures side by side
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{float} %Place floatss
+\usepackage{chngcntr}%Changes counter
+% \counterwithin{figure}{section} %Set figure counter to section.figure
+\usepackage{siunitx} %to put units more easily
+\usepackage{calc}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{14.5pt}  % Set headheight to at least 14.49998pt
+\pagestyle{fancy}
+
+\usepackage{multirow}
+\usepackage{wrapfig}%Posar imatges als laterals
+%\usepackage{appendix} %Posa l'apendix a l'índex
+\usepackage{afterpage}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+%\providecommand{\abs}[1]{\lvert#1\rvert}
+%\providecommand{\norm}[1]{\lVert#1\rVert}
+\usepackage{eurosym}
+\usepackage[natbib=true,
+style=ieee,sorting=none]{biblatex}
+\addbibresource{References.bib}
+\usepackage{indentfirst}
+\usepackage{mathtools}
+%\usepackage[toc,page]{appendix}
+\usepackage{environ}         % provides \BODY
+\usepackage{etoolbox}        % provides \ifdimcomp
+\usepackage{enumitem}
+\hypersetup{   
+    urlcolor=cyan,
+}
+\urlstyle{same}
+
+\newlength{\myl}
+\let\origequation=\equation
+\let\origendequation=\endequation
+
+\RenewEnviron{equation}{
+  \settowidth{\myl}{$\BODY$}                       % calculate width and save as \myl
+  \origequation
+  \ifdimcomp{\the\linewidth}{>}{\the\myl}
+  {\ensuremath{\BODY}}                             % True
+  {\resizebox{\linewidth}{!}{\ensuremath{\BODY}}}  % False
+  \origendequation
+}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+% Define colors
+\definecolor{BlauClar}{RGB}{240, 248, 255}
+\definecolor{BlauFort}{RGB}{70, 130, 180}
+
+\usepackage[vlined]{algorithm2e}
+
+\usepackage{tcolorbox}
+
+\lstset{
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  firstnumber=1,                % start line enumeration with line 1000
+  frame=single,	                   % adds a frame around the codes
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=Matlab,                 % the language of the code
+  morekeywords={*,...},            % if you want to add more keywords to the set
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+  %title=\lstname                   % show the filename of files included with \lstinputlisting; also try captions  instead of title
+  inputencoding=utf8
+}
+
+\lstset{literate=
+    {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+    {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+    {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+    {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+    {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+    {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+    {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+    {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+    {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+    {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+    {€}{{\EUR}}1 {£}{{\pounds}}1
+} 
+
+% Sangrado de los párrafos
+\setlength{\parindent}{0em}
+% Separación entre párrafos
+\setlength{\parskip}{3mm}
+% Interlineado
+\renewcommand{\baselinestretch}{1}
+
+
+% Hyperref
+\definecolor{azulUPC}{RGB}{0, 122, 194} % El color azul de la UPC
+\definecolor{azul_titulo}{RGB}{54, 95, 145} % El color azul para los títulos
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\usepackage{setspace}
+\usepackage[page]{appendix}
+\pagestyle{fancy}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage[export]{adjustbox}
+
+
+\newcommand{\ke}{$k-\varepsilon$\,\,\,}
+\newcommand{\kw}{$k-\omega$ $SST$\,\,\,}
+
+\newcommand{\etal}{\textit{et al. }}
