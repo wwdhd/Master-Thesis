@@ -4,7 +4,7 @@ To run the incompact3d:
 
 `git clone https://github.com/wwdhd/master_thesis.git`
 
-cd Incompact3d_osc180/
+::cd Incompact3d_osc180::
 
 cd src #if needed
 
