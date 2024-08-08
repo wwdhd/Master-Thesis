@@ -1,6 +1,7 @@
 # Master Thesis
 
 ## Incompact3d Compiling
+Before compiling, cmake and mpich modules must be installed into Ubuntu, using `sudo apt install mpich` and `sudo apt install cmake`. If they are unable to be downloaded, make sure Ubuntu is already up to date using `sudo apt update` and then `sudo apt upgrade`.
 
 To compile and run the incompact3d (substitute ncores with the number of desired cores for compiling):
 
