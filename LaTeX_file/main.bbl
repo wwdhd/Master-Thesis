@@ -143,8 +143,8 @@
       \strng{authorbibnamehash}{e224c3ae9202828b5a4192c6e2a209ff}
       \strng{authornamehash}{e224c3ae9202828b5a4192c6e2a209ff}
       \strng{authorfullhash}{3f17e666ffd28c6cfe01134f83853853}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Infrastructure Systems}
@@ -179,8 +179,8 @@
       \strng{authorbibnamehash}{2af6bec02d53ad4cb88c7b85a5878ec8}
       \strng{authornamehash}{2af6bec02d53ad4cb88c7b85a5878ec8}
       \strng{authorfullhash}{2af6bec02d53ad4cb88c7b85a5878ec8}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Met Office}
@@ -204,8 +204,8 @@
       \strng{authorbibnamehash}{b4f3a3711fe4df2b64d17bf2d72d90c0}
       \strng{authornamehash}{b4f3a3711fe4df2b64d17bf2d72d90c0}
       \strng{authorfullhash}{b4f3a3711fe4df2b64d17bf2d72d90c0}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IRENA}
@@ -230,8 +230,8 @@
       \strng{authorbibnamehash}{18fdbec513c87989c7580f31bb7f03ab}
       \strng{authornamehash}{18fdbec513c87989c7580f31bb7f03ab}
       \strng{authorfullhash}{18fdbec513c87989c7580f31bb7f03ab}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEA}
@@ -295,8 +295,8 @@
       \strng{authorbibnamehash}{a8ff2091843306ebea7bb7fe3bb6da98}
       \strng{authornamehash}{a8ff2091843306ebea7bb7fe3bb6da98}
       \strng{authorfullhash}{bcab59f1cad1c838b120517bec900e7f}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{18691900}
@@ -606,8 +606,8 @@
       \strng{authorbibnamehash}{26442d76ac920621ecf04904d59b8375}
       \strng{authornamehash}{26442d76ac920621ecf04904d59b8375}
       \strng{authorfullhash}{26442d76ac920621ecf04904d59b8375}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{14697645}
@@ -1188,8 +1188,8 @@
       \strng{authorbibnamehash}{f7b7b5e6fa91e53fbc3ba5d318cc796c}
       \strng{authornamehash}{f7b7b5e6fa91e53fbc3ba5d318cc796c}
       \strng{authorfullhash}{f7b7b5e6fa91e53fbc3ba5d318cc796c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0022-1120}
@@ -1420,8 +1420,8 @@
       \strng{authorbibnamehash}{5d4aa85efc5dd91c880b5c843f12888f}
       \strng{authornamehash}{e8143d8e77457facffab586d2f06cf0e}
       \strng{authorfullhash}{5d4aa85efc5dd91c880b5c843f12888f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{21801363}
@@ -1663,252 +1663,39 @@
       \field{pages}{567\bibrangedash 589}
       \range{pages}{23}
     \endentry
-    \entry{Kallio2015}{article}{}
+    \entry{Groves2012}{misc}{}
       \name{author}{3}{}{%
-        {{hash=375d7750d8113f73d1c76bd9e4da8491}{%
-           family={Kallio},
-           familyi={K\bibinitperiod},
-           given={Sirpa},
-           giveni={S\bibinitperiod}}}%
-        {{hash=04aacc06c939d55271914c34ad331bb1}{%
-           family={Peltola},
-           familyi={P\bibinitperiod},
-           given={Juho},
-           giveni={J\bibinitperiod}}}%
-        {{hash=7e829b6120d741ffe53377907d6f363f}{%
-           family={Niemi},
-           familyi={N\bibinitperiod},
-           given={Timo},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{33ecbe8e57f85509bd64737f26d27ed7}
-      \strng{fullhash}{33ecbe8e57f85509bd64737f26d27ed7}
-      \strng{bibnamehash}{33ecbe8e57f85509bd64737f26d27ed7}
-      \strng{authorbibnamehash}{33ecbe8e57f85509bd64737f26d27ed7}
-      \strng{authornamehash}{33ecbe8e57f85509bd64737f26d27ed7}
-      \strng{authorfullhash}{33ecbe8e57f85509bd64737f26d27ed7}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1873328X}
-      \field{journaltitle}{Powder Technology}
-      \field{month}{4}
-      \field{title}{Analysis of the time-averaged gas-solid drag force based on data from transient 3D CFD simulations of fluidized beds}
-      \field{volume}{274}
-      \field{year}{2015}
-      \field{pages}{227\bibrangedash 238}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1016/j.powtec.2015.01.029
-      \endverb
-    \endentry
-    \entry{Sodja2007}{book}{}
-      \name{author}{1}{}{%
-        {{hash=1fae10bbfabc24f34317a4e7d9eaf61e}{%
-           family={Sodja},
+        {{hash=aefd1f310e18b115784a2b4020769366}{%
+           family={Groves},
+           familyi={G\bibinitperiod},
+           given={Curtis\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=1b0beb8b5f2ff8a3aaa2faaa30c22f7e}{%
+           family={Ilie},
+           familyi={I\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1ca7afbf3310a7a15f64c1acdcafc458}{%
+           family={Schallhorn},
            familyi={S\bibinitperiod},
-           given={Jurij},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {University of Ljubljana}%
-      }
-      \strng{namehash}{1fae10bbfabc24f34317a4e7d9eaf61e}
-      \strng{fullhash}{1fae10bbfabc24f34317a4e7d9eaf61e}
-      \strng{bibnamehash}{1fae10bbfabc24f34317a4e7d9eaf61e}
-      \strng{authorbibnamehash}{1fae10bbfabc24f34317a4e7d9eaf61e}
-      \strng{authornamehash}{1fae10bbfabc24f34317a4e7d9eaf61e}
-      \strng{authorfullhash}{1fae10bbfabc24f34317a4e7d9eaf61e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Turbulence Models in CFD}
-      \field{year}{2007}
-    \endentry
-    \entry{Makarashvili2016}{inproceedings}{}
-      \name{author}{5}{}{%
-        {{hash=457bc0bb435dca3c17ba231e77f28f56}{%
-           family={Makarashvili},
-           familyi={M\bibinitperiod},
-           given={Vakhtang},
-           giveni={V\bibinitperiod}}}%
-        {{hash=61c3b55107e1f4df6f2aeb379844f3c4}{%
-           family={Merzari},
-           familyi={M\bibinitperiod},
-           given={Elia},
-           giveni={E\bibinitperiod}}}%
-        {{hash=d5f0c9130b2c4dc344039f772db50878}{%
-           family={Obabko},
-           familyi={O\bibinitperiod},
-           given={Aleksandr},
-           giveni={A\bibinitperiod}}}%
-        {{hash=3f61fb26219e72a888dd3e4c0db570a5}{%
-           family={Fischer},
-           familyi={F\bibinitperiod},
            given={Paul},
            giveni={P\bibinitperiod}}}%
-        {{hash=2ba117e985729fadc40f3bb3f3a4c9d7}{%
-           family={Siegel},
-           familyi={S\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {ASME}%
-      }
-      \strng{namehash}{04e2527202e11f524ab979e8b5acc119}
-      \strng{fullhash}{540de4173aa19e6b5f7be318fa28a453}
-      \strng{bibnamehash}{540de4173aa19e6b5f7be318fa28a453}
-      \strng{authorbibnamehash}{540de4173aa19e6b5f7be318fa28a453}
-      \strng{authornamehash}{04e2527202e11f524ab979e8b5acc119}
-      \strng{authorfullhash}{540de4173aa19e6b5f7be318fa28a453}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the ASME 2016 Fluids Engineering Division Summer Meeting}
-      \field{title}{ACCELERATING THE HIGH-FIDELITY SIMULATION OF TURBULENCE: ENSEMBLE AVERAGING}
-      \field{year}{2016}
-      \verb{urlraw}
-      \verb http://asmedigitalcollection.asme.org/FEDSM/proceedings-pdf/FEDSM2016/50299/V01BT26A003/2385220/v01bt26a003-fedsm2016-7853.pdf
-      \endverb
-      \verb{url}
-      \verb http://asmedigitalcollection.asme.org/FEDSM/proceedings-pdf/FEDSM2016/50299/V01BT26A003/2385220/v01bt26a003-fedsm2016-7853.pdf
-      \endverb
-      \keyw{FEDSM2016-7853}
-    \endentry
-    \entry{Tosi2021}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=1e9018e1135606af2e1167a35c37364d}{%
-           family={Tosi},
-           familyi={T\bibinitperiod},
-           given={Riccardo},
-           giveni={R\bibinitperiod}}}%
       }
       \list{institution}{1}{%
-        {Universitat Politecnica de Catalunya}%
+        {NASA}%
       }
-      \strng{namehash}{1e9018e1135606af2e1167a35c37364d}
-      \strng{fullhash}{1e9018e1135606af2e1167a35c37364d}
-      \strng{bibnamehash}{1e9018e1135606af2e1167a35c37364d}
-      \strng{authorbibnamehash}{1e9018e1135606af2e1167a35c37364d}
-      \strng{authornamehash}{1e9018e1135606af2e1167a35c37364d}
-      \strng{authorfullhash}{1e9018e1135606af2e1167a35c37364d}
+      \strng{namehash}{45fd64d5a0e34e8d1a2f6636677ec571}
+      \strng{fullhash}{45fd64d5a0e34e8d1a2f6636677ec571}
+      \strng{bibnamehash}{45fd64d5a0e34e8d1a2f6636677ec571}
+      \strng{authorbibnamehash}{45fd64d5a0e34e8d1a2f6636677ec571}
+      \strng{authornamehash}{45fd64d5a0e34e8d1a2f6636677ec571}
+      \strng{authorfullhash}{45fd64d5a0e34e8d1a2f6636677ec571}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{title}{Towards stochastic methods in CFD for engineering applications [Ph.D Thesis]}
-      \field{year}{2021}
-    \endentry
-    \entry{Gordiz2015}{article}{}
-      \name{author}{3}{}{%
-        {{hash=d6407438522d33343475568e9aa3c2aa}{%
-           family={Gordiz},
-           familyi={G\bibinitperiod},
-           given={Kiarash},
-           giveni={K\bibinitperiod}}}%
-        {{hash=295022169e00ab71c4b32f91f740b2a6}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={David\bibnamedelima J.},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=b07d731dc3a12e52efae4b2ac5d3feba}{%
-           family={Henry},
-           familyi={H\bibinitperiod},
-           given={Asegun},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{4cd6a2c5d50bb2e102603167387c41cd}
-      \strng{fullhash}{4cd6a2c5d50bb2e102603167387c41cd}
-      \strng{bibnamehash}{4cd6a2c5d50bb2e102603167387c41cd}
-      \strng{authorbibnamehash}{4cd6a2c5d50bb2e102603167387c41cd}
-      \strng{authornamehash}{4cd6a2c5d50bb2e102603167387c41cd}
-      \strng{authorfullhash}{4cd6a2c5d50bb2e102603167387c41cd}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0021-8979}
-      \field{issue}{4}
-      \field{journaltitle}{Journal of Applied Physics}
-      \field{month}{1}
-      \field{title}{Ensemble averaging vs. time averaging in molecular dynamics simulations of thermal conductivity}
-      \field{volume}{117}
-      \field{year}{2015}
-      \verb{doi}
-      \verb 10.1063/1.4906957
-      \endverb
-    \endentry
-    \entry{Yamamoto2024}{inbook}{}
-      \name{author}{1}{}{%
-        {{hash=5d637dc900c1e32e067fc4b4d5871c04}{%
-           family={Yamamoto},
-           familyi={Y\bibinitperiod},
-           given={Yoshisha},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {National Institute of Informatics}%
-      }
-      \strng{namehash}{5d637dc900c1e32e067fc4b4d5871c04}
-      \strng{fullhash}{5d637dc900c1e32e067fc4b4d5871c04}
-      \strng{bibnamehash}{5d637dc900c1e32e067fc4b4d5871c04}
-      \strng{authorbibnamehash}{5d637dc900c1e32e067fc4b4d5871c04}
-      \strng{authornamehash}{5d637dc900c1e32e067fc4b4d5871c04}
-      \strng{authorfullhash}{5d637dc900c1e32e067fc4b4d5871c04}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Fundamentals of Noise Processes}
-      \field{title}{Mathematical Methods}
-      \field{year}{2024}
-    \endentry
-    \entry{Galanti2004}{article}{}
-      \name{author}{2}{}{%
-        {{hash=b5a51f32d7cb1bd35c32934c8c921025}{%
-           family={Galanti},
-           familyi={G\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=abde6b91f5561b8b80c252c381e99fa6}{%
-           family={Tsinober},
-           familyi={T\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{83b470677e37a0c74ceddcc6a8a95350}
-      \strng{fullhash}{83b470677e37a0c74ceddcc6a8a95350}
-      \strng{bibnamehash}{83b470677e37a0c74ceddcc6a8a95350}
-      \strng{authorbibnamehash}{83b470677e37a0c74ceddcc6a8a95350}
-      \strng{authornamehash}{83b470677e37a0c74ceddcc6a8a95350}
-      \strng{authorfullhash}{83b470677e37a0c74ceddcc6a8a95350}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{03759601}
-      \field{issue}{3-4}
-      \field{journaltitle}{Physics Letters, Section A: General, Atomic and Solid State Physics}
-      \field{month}{9}
-      \field{title}{Is turbulence ergodic?}
-      \field{volume}{330}
-      \field{year}{2004}
-      \field{pages}{173\bibrangedash 180}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1016/j.physleta.2004.07.009
-      \endverb
+      \field{title}{Comprehensive Approach to Verification and Validation of CFD Simulations Applied to Backward Facing Step - Application of CFD Uncertainty Analysis}
+      \field{year}{2012}
     \endentry
     \entry{Bartholomew2020}{article}{}
       \name{author}{6}{}{%
@@ -1952,8 +1739,8 @@
       \strng{authorbibnamehash}{431488bc993b4c9b08b5cf1d812111b1}
       \strng{authornamehash}{890d60dcd033f5e8e38d6f9233704aa5}
       \strng{authorfullhash}{431488bc993b4c9b08b5cf1d812111b1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{23527110}
@@ -2045,6 +1832,168 @@
       \verb 10.1016/j.jcp.2009.05.010
       \endverb
       \keyw{Compact schemes,Direct numerical simulation,Immersed boundary method,Incompressible flows,Spectral methods}
+    \endentry
+    \entry{Cornell2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0d4dfbf1232b9d4506ee5363776db339}{%
+           family={{Cornell University}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d4dfbf1232b9d4506ee5363776db339}
+      \strng{fullhash}{0d4dfbf1232b9d4506ee5363776db339}
+      \strng{bibnamehash}{0d4dfbf1232b9d4506ee5363776db339}
+      \strng{authorbibnamehash}{0d4dfbf1232b9d4506ee5363776db339}
+      \strng{authornamehash}{0d4dfbf1232b9d4506ee5363776db339}
+      \strng{authorfullhash}{0d4dfbf1232b9d4506ee5363776db339}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Parallel Programming Concepts and High Performance Computing}
+      \field{title}{Scaling [Virtual Workshop Note]}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://cvw.cac.cornell.edu/parallel/efficiency/scaling
+      \endverb
+      \verb{url}
+      \verb https://cvw.cac.cornell.edu/parallel/efficiency/scaling
+      \endverb
+    \endentry
+    \entry{Li2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=86d8cd66cb62928ca1ec636d8cd2e11c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{86d8cd66cb62928ca1ec636d8cd2e11c}
+      \strng{fullhash}{86d8cd66cb62928ca1ec636d8cd2e11c}
+      \strng{bibnamehash}{86d8cd66cb62928ca1ec636d8cd2e11c}
+      \strng{authorbibnamehash}{86d8cd66cb62928ca1ec636d8cd2e11c}
+      \strng{authornamehash}{86d8cd66cb62928ca1ec636d8cd2e11c}
+      \strng{authorfullhash}{86d8cd66cb62928ca1ec636d8cd2e11c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Scalability: Strong and Weak Scaling}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.kth.se/blogs/pdc/2018/11/scalability-strong-and-weak-scaling/
+      \endverb
+      \verb{url}
+      \verb https://www.kth.se/blogs/pdc/2018/11/scalability-strong-and-weak-scaling/
+      \endverb
+    \endentry
+    \entry{Amdahl1967}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=9d4382f1500ff84c4eca531179c994c7}{%
+           family={Amdahl},
+           familyi={A\bibinitperiod},
+           given={Gene\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Atlantic City, New Jersey}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{9d4382f1500ff84c4eca531179c994c7}
+      \strng{fullhash}{9d4382f1500ff84c4eca531179c994c7}
+      \strng{bibnamehash}{9d4382f1500ff84c4eca531179c994c7}
+      \strng{authorbibnamehash}{9d4382f1500ff84c4eca531179c994c7}
+      \strng{authornamehash}{9d4382f1500ff84c4eca531179c994c7}
+      \strng{authorfullhash}{9d4382f1500ff84c4eca531179c994c7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the April 18-20, 1967, Spring Joint Computer Conference}
+      \field{isbn}{9781450378956}
+      \field{series}{AFIPS '67 (Spring)}
+      \field{title}{Validity of the single processor approach to achieving large scale computing capabilities}
+      \field{year}{1967}
+      \field{pages}{483\bibrangedash 485}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1145/1465482.1465560
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1465482.1465560
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1465482.1465560
+      \endverb
+    \endentry
+    \entry{Gustafson1988}{article}{}
+      \name{author}{1}{}{%
+        {{hash=351aa3ec1bf2b12adf8f540f6ab58b7d}{%
+           family={Gustafson},
+           familyi={G\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{351aa3ec1bf2b12adf8f540f6ab58b7d}
+      \strng{fullhash}{351aa3ec1bf2b12adf8f540f6ab58b7d}
+      \strng{bibnamehash}{351aa3ec1bf2b12adf8f540f6ab58b7d}
+      \strng{authorbibnamehash}{351aa3ec1bf2b12adf8f540f6ab58b7d}
+      \strng{authornamehash}{351aa3ec1bf2b12adf8f540f6ab58b7d}
+      \strng{authorfullhash}{351aa3ec1bf2b12adf8f540f6ab58b7d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Commun. ACM}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Reevaluating Amdahl's law}
+      \field{volume}{31}
+      \field{year}{1988}
+      \field{pages}{532\bibrangedash 533}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1145/42411.42415
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/42411.42415
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/42411.42415
+      \endverb
+    \endentry
+    \entry{EPCC2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5f1c982742dcd22cd4ccea94a9531298}{%
+           family={{EPCC}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f1c982742dcd22cd4ccea94a9531298}
+      \strng{fullhash}{5f1c982742dcd22cd4ccea94a9531298}
+      \strng{bibnamehash}{5f1c982742dcd22cd4ccea94a9531298}
+      \strng{authorbibnamehash}{5f1c982742dcd22cd4ccea94a9531298}
+      \strng{authornamehash}{5f1c982742dcd22cd4ccea94a9531298}
+      \strng{authorfullhash}{5f1c982742dcd22cd4ccea94a9531298}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ARCHER2 CU Calculator}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.archer2.ac.uk/support-access/cu-calc.html
+      \endverb
+      \verb{url}
+      \verb https://www.archer2.ac.uk/support-access/cu-calc.html
+      \endverb
     \endentry
     \entry{Jimenez1991}{article}{}
       \name{author}{2}{}{%
@@ -2181,6 +2130,7 @@
       \strng{authorbibnamehash}{85a1513aa8156867c16464c498eae9b8}
       \strng{authornamehash}{85a1513aa8156867c16464c498eae9b8}
       \strng{authorfullhash}{85a1513aa8156867c16464c498eae9b8}
+      \field{extraname}{1}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -2197,29 +2147,6 @@
       \verb 10.1017/jfm.2015.268
       \endverb
     \endentry
-    \entry{Konoszy2023}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=9c580de43ace6e48ebd32912f90fec15}{%
-           family={Könözsy},
-           familyi={K\bibinitperiod},
-           given={Laszlo},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{9c580de43ace6e48ebd32912f90fec15}
-      \strng{fullhash}{9c580de43ace6e48ebd32912f90fec15}
-      \strng{bibnamehash}{9c580de43ace6e48ebd32912f90fec15}
-      \strng{authorbibnamehash}{9c580de43ace6e48ebd32912f90fec15}
-      \strng{authornamehash}{9c580de43ace6e48ebd32912f90fec15}
-      \strng{authorfullhash}{9c580de43ace6e48ebd32912f90fec15}
-      \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{{Canvas Cranfield}}
-      \field{title}{{Navier Stokes Hypothesis for Newtonian Viscous Fluids [Course Notes]}}
-      \field{year}{2023}
-    \endentry
     \entry{Konoszy2024}{misc}{}
       \name{author}{1}{}{%
         {{hash=9c580de43ace6e48ebd32912f90fec15}{%
@@ -2234,7 +2161,6 @@
       \strng{authorbibnamehash}{9c580de43ace6e48ebd32912f90fec15}
       \strng{authornamehash}{9c580de43ace6e48ebd32912f90fec15}
       \strng{authorfullhash}{9c580de43ace6e48ebd32912f90fec15}
-      \field{extraname}{2}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -2258,8 +2184,8 @@
       \strng{authornamehash}{4413164c17110654135ffa2925779937}
       \strng{authorfullhash}{4413164c17110654135ffa2925779937}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{{Xcompact3d Course}}
@@ -2295,6 +2221,148 @@
       \field{title}{THE FRACTIONAL STEP METHOD APPLIED TO SIMULATIONS OF NATURAL CONVECTIVE FLOWS}
       \field{year}{2002}
     \endentry
+    \entry{vanKan1986}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c95827eaae9d87ebbccec8aaea59d29d}{%
+           family={Kan},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{c95827eaae9d87ebbccec8aaea59d29d}
+      \strng{fullhash}{c95827eaae9d87ebbccec8aaea59d29d}
+      \strng{bibnamehash}{c95827eaae9d87ebbccec8aaea59d29d}
+      \strng{authorbibnamehash}{c95827eaae9d87ebbccec8aaea59d29d}
+      \strng{authornamehash}{c95827eaae9d87ebbccec8aaea59d29d}
+      \strng{authorfullhash}{c95827eaae9d87ebbccec8aaea59d29d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM Journal on Scientific and Statistical Computing}
+      \field{number}{3}
+      \field{title}{A Second-Order Accurate Pressure-Correction Scheme for Viscous Incompressible Flow}
+      \field{volume}{7}
+      \field{year}{1986}
+      \field{pages}{870\bibrangedash 891}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1137/0907059
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1137/0907059
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1137/0907059
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1137/0907059
+      \endverb
+    \endentry
+    \entry{Li2010}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f7b82bb0e43430adcc2f78b727392107}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4413164c17110654135ffa2925779937}{%
+           family={Laizet},
+           familyi={L\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{199f2cecd200f4899b3e5dfa0660e8fc}
+      \strng{fullhash}{199f2cecd200f4899b3e5dfa0660e8fc}
+      \strng{bibnamehash}{199f2cecd200f4899b3e5dfa0660e8fc}
+      \strng{authorbibnamehash}{199f2cecd200f4899b3e5dfa0660e8fc}
+      \strng{authornamehash}{199f2cecd200f4899b3e5dfa0660e8fc}
+      \strng{authorfullhash}{199f2cecd200f4899b3e5dfa0660e8fc}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Cray User Group}
+      \field{title}{2DECOMPFFT - A Highly Scalable 2D Decomposition Library and FFT Interface}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+    \endentry
+    \entry{Hawez2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=795b3b91db7896b16e45b91a429f68c8}{%
+           family={Hawez},
+           familyi={H\bibinitperiod},
+           given={Haval\bibnamedelima Kukha},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=90321cbc4657e55f853d961f7590728b}{%
+           family={Sanaee},
+           familyi={S\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7e2f8097b044a6f2cc72af10f2bab7de}{%
+           family={Faisal},
+           familyi={F\bibinitperiod},
+           given={Nadimul\bibnamedelima Haque},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ce312eb7caeb5a1f09d1c62e9a280fd}
+      \strng{fullhash}{2ce312eb7caeb5a1f09d1c62e9a280fd}
+      \strng{bibnamehash}{2ce312eb7caeb5a1f09d1c62e9a280fd}
+      \strng{authorbibnamehash}{2ce312eb7caeb5a1f09d1c62e9a280fd}
+      \strng{authornamehash}{2ce312eb7caeb5a1f09d1c62e9a280fd}
+      \strng{authorfullhash}{2ce312eb7caeb5a1f09d1c62e9a280fd}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1875-5100}
+      \field{journaltitle}{Journal of Natural Gas Science and Engineering}
+      \field{title}{A critical review on coupled geomechanics and fluid flow in naturally fractured reservoirs}
+      \field{volume}{95}
+      \field{year}{2021}
+      \field{pages}{104150}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jngse.2021.104150
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1875510021003516
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1875510021003516
+      \endverb
+    \endentry
+    \entry{Laizet2024UserGuide}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4413164c17110654135ffa2925779937}{%
+           family={Laizet},
+           familyi={L\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4413164c17110654135ffa2925779937}
+      \strng{fullhash}{4413164c17110654135ffa2925779937}
+      \strng{bibnamehash}{4413164c17110654135ffa2925779937}
+      \strng{authorbibnamehash}{4413164c17110654135ffa2925779937}
+      \strng{authornamehash}{4413164c17110654135ffa2925779937}
+      \strng{authorfullhash}{4413164c17110654135ffa2925779937}
+      \field{extraname}{3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{INCOMPACT 3D USER GUIDE version2.0 [User Guide]}}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.incompact3d.com/uploads/5/8/7/2/58724623/_user_guide_incompact3d_v2.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.incompact3d.com/uploads/5/8/7/2/58724623/_user_guide_incompact3d_v2.pdf
+      \endverb
+    \endentry
     \entry{Durran1991}{article}{}
       \name{author}{1}{}{%
         {{hash=cbd3f98db952dd6b2aa064dd3ac2c5a1}{%
@@ -2309,8 +2377,8 @@
       \strng{authorbibnamehash}{cbd3f98db952dd6b2aa064dd3ac2c5a1}
       \strng{authornamehash}{cbd3f98db952dd6b2aa064dd3ac2c5a1}
       \strng{authorfullhash}{cbd3f98db952dd6b2aa064dd3ac2c5a1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -2343,8 +2411,8 @@
       \strng{authorbibnamehash}{cce545e99813dfd8c84f64ecee37c198}
       \strng{authornamehash}{cce545e99813dfd8c84f64ecee37c198}
       \strng{authorfullhash}{cce545e99813dfd8c84f64ecee37c198}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computational Techniques for Multiphase Flows}
@@ -2371,8 +2439,8 @@
       \strng{authorbibnamehash}{c4c3f8d0d4ac26494ebfbf053206e390}
       \strng{authornamehash}{c4c3f8d0d4ac26494ebfbf053206e390}
       \strng{authorfullhash}{c4c3f8d0d4ac26494ebfbf053206e390}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{ANSYS Fluent Mosaic Technology Automatically Combines Disparate Meshes with Polyhedral Elements for Fast, Accurate Flow Resolution [White Paper]}}
@@ -2425,8 +2493,8 @@
       \strng{editorbibnamehash}{65d1da10fe16d5cde1b00c02612db59d}
       \strng{editornamehash}{65d1da10fe16d5cde1b00c02612db59d}
       \strng{editorfullhash}{65d1da10fe16d5cde1b00c02612db59d}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Computational Fluid Dynamics (Third Edition)}
@@ -2470,8 +2538,8 @@
       \strng{authorbibnamehash}{dca3b207b97633c4853947eb2d1077c1}
       \strng{authornamehash}{dca3b207b97633c4853947eb2d1077c1}
       \strng{authorfullhash}{dca3b207b97633c4853947eb2d1077c1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219991}
@@ -2505,8 +2573,9 @@
            given={K.\bibnamedelimi H.},
            giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {John Wiley & Sons Ltd}%
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons Ltd}%
       }
       \strng{namehash}{7a9fecfb612c601456c403231a14d2ee}
       \strng{fullhash}{7a9fecfb612c601456c403231a14d2ee}
@@ -2514,8 +2583,8 @@
       \strng{authorbibnamehash}{7a9fecfb612c601456c403231a14d2ee}
       \strng{authornamehash}{7a9fecfb612c601456c403231a14d2ee}
       \strng{authorfullhash}{7a9fecfb612c601456c403231a14d2ee}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{02712091}
@@ -2531,6 +2600,107 @@
       \verb 10.1002/1097-0363(20000730)33:6<897::AID-FLD37>3.0.CO;2-4
       \endverb
       \keyw{Incompressible Navier-Stokes equations,Poisson equation,Stretching function}
+    \endentry
+    \entry{Zhou2008TurbulentDR}{article}{}
+      \name{author}{2}{}{%
+        {{hash=158d306d88763fce56a5b90184e1b5b8}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a8b5833992cc9aa8cc5bd456b43f2405}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={Kenneth\bibnamedelima S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcef3cd43a9c15d2767a9751fdb751ee}
+      \strng{fullhash}{fcef3cd43a9c15d2767a9751fdb751ee}
+      \strng{bibnamehash}{fcef3cd43a9c15d2767a9751fdb751ee}
+      \strng{authorbibnamehash}{fcef3cd43a9c15d2767a9751fdb751ee}
+      \strng{authornamehash}{fcef3cd43a9c15d2767a9751fdb751ee}
+      \strng{authorfullhash}{fcef3cd43a9c15d2767a9751fdb751ee}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of engineering. Transactions A: basics}
+      \field{title}{Turbulent Drag Reduction by Spanwise Wall Oscillations}
+      \field{volume}{21}
+      \field{year}{2008}
+      \field{pages}{85\bibrangedash 104}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:17940071
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:17940071
+      \endverb
+    \endentry
+    \entry{Lee_Moser_2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c1fdc752f3ded6066858aef91bbb2c7d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Myoungkyu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fb91ea4c56ee74f8f2ced38854f67bde}{%
+           family={Moser},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{85a1513aa8156867c16464c498eae9b8}
+      \strng{fullhash}{85a1513aa8156867c16464c498eae9b8}
+      \strng{bibnamehash}{85a1513aa8156867c16464c498eae9b8}
+      \strng{authorbibnamehash}{85a1513aa8156867c16464c498eae9b8}
+      \strng{authornamehash}{85a1513aa8156867c16464c498eae9b8}
+      \strng{authorfullhash}{85a1513aa8156867c16464c498eae9b8}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{title}{Direct numerical simulation of turbulent channel flow up to $\mathit{Re}_{{\it\tau}}\approx 5200$}
+      \field{volume}{774}
+      \field{year}{2015}
+      \field{pages}{395\bibrangedash 415}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1017/jfm.2015.268
+      \endverb
+    \endentry
+    \entry{Cengel2019}{book}{}
+      \name{author}{2}{}{%
+        {{hash=7393c064ff2624f0f01cf6b2b0759040}{%
+           family={Cengel},
+           familyi={C\bibinitperiod},
+           given={Yunus\bibnamedelima A.},
+           giveni={Y\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4dc0a28ea2a5cecc3e3186bac0fab28e}{%
+           family={Cimbala},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{a534c3ed06e01f3fcea39c26621ce1db}
+      \strng{fullhash}{a534c3ed06e01f3fcea39c26621ce1db}
+      \strng{bibnamehash}{a534c3ed06e01f3fcea39c26621ce1db}
+      \strng{authorbibnamehash}{a534c3ed06e01f3fcea39c26621ce1db}
+      \strng{authornamehash}{a534c3ed06e01f3fcea39c26621ce1db}
+      \strng{authorfullhash}{a534c3ed06e01f3fcea39c26621ce1db}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4th}
+      \field{month}{1}
+      \field{title}{Fluid Mechanics: Fundamentals and Applications}
+      \field{year}{2019}
     \endentry
   \enddatalist
 \endrefsection

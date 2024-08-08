@@ -7,7 +7,24 @@
 
 \subsection{Flow Problem of Interest}
 \label{sec:Flow problem of interest}
-To understand the effect of oscillating wall flow control to the effect of the flow, a case must be formulated as an example case. Generally, the case used is a canonical flow problem, which the information and data are abundantly accessible and can easily compared to one and another. Therefore, the turbulence phenomena can be throughly examined. In this study, a simple double periodic channel flow problem is used to be analysed for the oscillating wall flow control problem. Double periodic channel flow cases utilises periodic boundary conditions on two sets of planes: spanwise and streamwise planes. 
+\subsubsection{Cylindrical Flow}
+As a test case for running the Xcompact3d, a simple cylindrical wake case is used. In this case, the a cylinder is subjected to a flow that creates a oscillating flow behind that are commonly known as the vortex shedding phenomenon. The parameters of the cylinder is set as default, given by the input example, shown in Table \ref{tab:cyl_wake_case}.
+
+\begin{table}[h!]
+	\caption{Cylinder Wake Case Parameters}
+	\centering
+	\label{tab:cyl_wake_case}
+	\begin{tabular}{ccccccc}
+		\hline
+		Re  & $x_{cyl}$ & $y_{cyl}$ & $r_{cyl}$ & $u_b$ & $\rho$ & $\nu$   \\ \hline
+		300 & 5       & 6       & 0.5     & 1     & 1      & 0.0033 \\ \hline
+	\end{tabular}
+\end{table}
+
+It is worth noting that the cylinder wake case is only used as a means to check the result quality of Xcompact3d case. Therefore, the cylinder wake case will not be analysed as in depth as the channel flow cases.
+
+\subsubsection{Channel Flow}
+To understand the effect of oscillating wall flow control to the effect of the flow, a case must be formulated as an example case. Generally, the case used is a canonical flow problem, which the information and data are abundantly accessible and can easily compared to one and another. Therefore, the turbulence phenomena can be thoroughly examined. In this study, a simple double periodic channel flow problem is used to be analysed for the oscillating wall flow control problem. Double periodic channel flow cases utilises periodic boundary conditions on two sets of planes: spanwise and streamwise planes. 
 
 The first thing to do when simulating a double periodic channel flow problem is to determine the requirement of the channel flow domain size. The size of the domain must be meticulously determined to minimise the computational expenses but ensuring all of the necessary turbulence structures are captured appropriately. The minimum size of the double periodic channel flows are commonly referred as the minimal flow unit \cite{Jimenez1991}, shown in Figure \ref{fig:jimenezmfu}.
 
@@ -18,10 +35,11 @@ The first thing to do when simulating a double periodic channel flow problem is 
 	\label{fig:jimenezmfu}
 \end{figure}
 
-The length of the minimal flow unit is defined in a wall flow unit, denoted by the (+) sign. The (+) sign is a normalisation of the quantity using the turbulent boundary layers, formulated as:
+\pagebreak
+The length of the minimal flow unit is defined in a wall flow unit, denoted by the (+) sign. The (+) sign is a normalisation of quantities using the viscous length scale, formulated as:
 
 \begin{equation}
-	+ = \frac{\nu}{u_\tau}
+	\delta_\nu = \frac{\nu}{u_\tau}
 \end{equation}
 
 Where $u_\tau$ is a function of wall friction, defined as \cite{Pope2000}:
@@ -51,9 +69,9 @@ For the base case, the Reynolds number are defined as $Re_\tau = 180$. The quant
 	\caption{Fluid Properties}
 	\label{tab:fluprop}
 	\centering
-	\begin{tabular}{ccccc}
+	\begin{tabular}{lccccc}
 		\hline
-		{$\boldsymbol{Re_\tau}$} & \textbf{Re} & \textbf{u} & {$\boldsymbol{\rho}$} & {$\boldsymbol{\nu}$} \\ \hline
+		{$\boldsymbol{Re_\tau}$} & {Re} & {$\boldsymbol{u_b}$} & {$\boldsymbol{\rho}$} & {$\boldsymbol{\nu}$} \\ \hline
 		180               & 2819.294    & 1          & 1               & 0.00035        \\ \hline
 	\end{tabular}
 \end{table}
@@ -70,55 +88,66 @@ For the base case, the Reynolds number are defined as $Re_\tau = 180$. The quant
 \subsubsection{Governing Equations of Incompressible Fluid Flow}
 \label{sec:Governing equations comp}
 
-In a general fluid flow, there are two equations that are used for the equation\cite{Konoszy2023}. The first, continuity equation is expressed as:
-\begin{equation}
-	\frac{\partial P}{\partial t} + \nabla(\rho \mathbf{u}) = 0
-\end{equation}
-
-The second, is the momentum equation, which are commonly mentioned as the Navier-Stokes equation, is expressed as:
-
-\begin{equation}
-	\underbrace{\rho\frac{\partial \mathbf{u}}{\partial t}}_{\rm I.} + \underbrace{\rho(\mathbf{u}\cdot \nabla)\mathbf{u}}_{\rm II.} = \underbrace{\rho\mathbf{g}}_{\rm III.} - \underbrace{\nabla P}_{\rm IV.} + \underbrace{\mu \nabla^2 \mathbf{u}}_{\rm V.} + \underbrace{\frac{\mu}{3}\nabla(\nabla \mathbf{u})}_{\rm VI.}
-\end{equation}
-
-Where
-\begin{equation}
-	\mathbf{u} = u \mathbf{e_x} + v \mathbf{e_y} + w \mathbf{e_z}
-\end{equation}
-
-There are six members in a full on Navier-Stokes Equation. The first member is the unsteady term, showing the change of the fluid velocity over time. The second member is the convective-advective term, showing the transport of properties in the flow. The third term, gravity force field, displays the effect of gravity in the flow, The fourth term is the pressure gradient, showing the change of pressure in the fluid. The fifth term, the diffusion term, determines how the viscous diffusion and dissipation affecting the flow. Lastly, the sixth term, shows the compressibility effect due to the viscous terms. 
-
-In a low Reynolds number case such as defined in Section \ref{sec:Flow_prob_interest}, the fluid becomes incompressible, which transforms both governing equations\cite{Konoszy2024}. For the continuity equation, the expression simplifies into:
+In a low Reynolds number case such as defined in Section \ref{sec:Flow_prob_interest}, the fluid becomes incompressible, which transforms both governing equations of the fluid flow \cite{Konoszy2024}. For the continuity equation, the expression simplifies into:
 
 \begin{equation}
 	\nabla \mathbf{u} = 0
 \end{equation}
 
-On the other hand, the momentum equation changes by dropping the compressibility term. Additionally, the momentum equation can be modified by normalising every term to density, as density remains constant in incompressible flow.
-
+The bold variables denotes a field. For the context of $\mathbf{u}$, which is the velocity field, it can be expanded into:
 \begin{equation}
-	\frac{\partial\mathbf{u}}{\partial t}+(\mathbf{u}\cdot\nabla)\mathbf{u} = \mathbf{g} - \frac1\rho \nabla P + \nu \nabla^2 \mathbf{u}
+	\mathbf{u} = u \mathbf{e_x} + v \mathbf{e_y} + w \mathbf{e_z}
 \end{equation}
 
+On the other hand, the momentum equation changes by dropping the compressibility term. Moreover, because of no height change involved in the channel flow, the gravity term is also dropped. Additionally, the momentum equation can be modified by normalising every term to density, as density remains constant in incompressible flow.
 
+\begin{equation}
+	\underbrace{\frac{\partial \mathbf{u}}{\partial t}}_{\rm I.} + \underbrace{(\mathbf{u}\cdot \nabla)\mathbf{u}}_{\rm II.} = - \underbrace{\frac{1}{\rho}\nabla p}_{\rm III.} + \underbrace{\nu \nabla^2 \mathbf{u}}_{\rm IV.}
+\end{equation}
+
+There are four members in a incompressible Navier-Stokes equation. The term I is the unsteady term, showing the change of the fluid velocity over time. The term II is the convective term, showing the transport of properties in the flow. The third term is the pressure gradient, showing the change of pressure in the fluid. Lastly, term IV, determines how the viscous diffusion and dissipation affecting the flow.
 
 \subsubsection{Fractional Step Method}
 \label{sec:Frac_step}
-In incompressible flow, the density remains constant while the pressure changes. Therefore, the equation of state is not applicable \cite{Konoszy2024}, hence pressure and velocity equation must be calculated together in a coupled equation. In Xcompact3D, Chorin's Fractional Step Method is used \cite{Laizet2024}. In Fractional Step method, there are three steps that is conducted to couple the pressure and velocity variables \cite{Westra2002}. The first step utilises intermediate velocity field, which is expressed as:
+In incompressible flow, the density remains constant while the pressure changes. Therefore, the equation of state is not applicable \cite{Konoszy2024}, hence pressure and velocity equation must be calculated together in a coupled equation. In Xcompact3D, the Fractional Step Method is used \cite{Laizet2024}. In Fractional Step method, there are four steps that is conducted to couple the pressure and velocity variables \cite{Westra2002}. The first step utilises intermediate velocity field, which is expressed as \cite{vanKan1986}:
 \begin{equation}
-	\mathbf{u}^* = \mathbf{u}^{n} + \Delta t \left[\mathbf{g}+\nu\nabla^2\mathbf{u}-(\mathbf{u}\nabla)\mathbf{u}\right]^{(n)}
+	\frac{\hat{\mathbf{u}}^{k} - \mathbf{u}^{k-1}} {\Delta t} = \gamma_{k} \mathcal{A}(\mathbf{u}^{k-1}) + \theta_{k} \mathcal{A}(\mathbf{u}^{k-2}) - \alpha_{k} \nabla p^{k-1}
 \end{equation}
-Then, the second step is conducted to solve the pressure equation as follows:
+Where $\mathcal{A}$ is the convection-diffusion operator, which includes both terms II and IV of the Navier-Stokes equations \cite{Tamas2019}. It also worth noting that the intermediate velocity field does not satisfy the continuity equation due to its divergence-free characteristics.
+
+Then, the second step is to solve the predicted scalar field, using the following relation:
 \begin{equation}
-	\nabla^2 P^{n+1} = \frac{\rho}{\Delta t}\left[\nabla\mathbf{u^*}\right]
+	\nabla^2 \phi^{k} = \frac{1}{\alpha_k \Delta t}\nabla{\hat{\mathbf{u}}^k}
 \end{equation}
-Finally, the third step is to update the velocity.
+This step is based on the pressure-Poisson equation, which makes this step computationally demanding \cite{Tamas2019}. Therefore, 3D FFT scheme is used to solve the scalar field equation \cite{Li2010}.
+
+The third step is to update the velocity using the known scalar field and intermediate velocity field.
 \begin{equation}
-	\mathbf{u}^{n+1}=u^*-\frac{\Delta t}{\rho}\nabla P^{n+1}
+	\mathbf{u}^k = \hat{\mathbf{u}}^{k} - \alpha_k \Delta t \nabla \phi^{k}
+\end{equation}
+Finally, the pressure field is updated using the relation with the scalar field:
+\begin{equation}
+	p^k = p^{k-1} + \phi^k
 \end{equation}
 
 
 \subsubsection{Spatial Discretisation}
+Solving the Navier-Stokes equation numerically requires spatial discretisation, which involves transferring the properties of the flow from one member to another \cite{Hawez2021}. Xcompact3d uses various types of compact finite difference schemes \cite{Laizet2009}, due to its ability to solve the derived values of a defined point and the neighbouring members simultaneously. This study uses the 6th-order centred Hermitian compact scheme, which solved the first derivation of the values as: \cite{Laizet2024UserGuide}:
+
+\begin{equation}
+	\alpha \mathbf{u}'_{i-1} + \mathbf{u}'_{i} + \alpha \mathbf{u}'_{i+1} = a \frac{\mathbf{u}_{i+1} - \mathbf{u}_{i-1}}{2 \Delta x} + b \frac{\mathbf{u}_{i+2} - \mathbf{u}_{i-2}}{4 \Delta x}
+	\label{eq:6orderHOC}
+\end{equation}
+
+For the variables, it is set into $\alpha = 1/3$, $a = 14/9$, and $b = 1/9$ to ensure the scheme can represent a wide range of turbulence scales \cite{Laizet2009}. The second derivative also uses the 6th-order central scheme, expressed as:
+
+\begin{equation}
+	\alpha \mathbf{u}''_{j}+ \mathbf{u}''_{j+1} + \alpha \mathbf{u}''_{j+1} = a \frac{\mathbf{u}_{i+1} - 2\mathbf{u}_{i} + \mathbf{u}_{i-1}}{\Delta x^2} + b \frac{\mathbf{u}_{i+2} - 2\mathbf{u}_{i} + \mathbf{u}_{i-2}}{4\Delta x^2} + c \frac{\mathbf{u}_{i+3} - 2\mathbf{u}_{i} + \mathbf{u}_{i-3}}{9\Delta x^2}
+	\label{eq:6orderHOC2nddev}
+\end{equation}
+
+To ensure the same range as the first derivative, the variables $\alpha$ is set to 2/11,  $a$ is set to 12/11, $b$ is set to 3/11, and $c$ is set to 0. Using these equations and the said variables value, the scheme can calculate the results with 4 or 5 times lower number of mesh nodes compared to 2nd order schemes while only increasing 2 times of its computational expenses \cite{Laizet2024}.
+
 
 
 
@@ -147,8 +176,29 @@ For the diffusion term in the wall-normal direction, the implicit Crank-Nicolson
 
 
 
+
 \subsection{Computational Procedures}
 \label{sec:Computational procedures}
+
+\subsubsection{Xcompact3d Setup}
+\label{sec:Xcompact3d Setup}
+Xcompact3d, as any other FORTRAN F90 based code, must be downloaded and compiled before being able to be used as an analysis software. The code is downloaded through its official Github repository, using:
+\begin{verbatim}
+	git clone https://github.com/xcompact3d/Incompact3d
+\end{verbatim}
+
+After that, the code is compiled using the following commands on unix, assuming 8 threads are available for compiling the code:
+\begin{verbatim}
+	cd Incompact3d
+	export FC=mpif90
+	cmake -S . -B build
+	cd build
+	cmake --build . -j 8
+\end{verbatim}
+
+Then by going to the \textit{input.i3d} file in each example code, the boundary conditions, as well as domain size, number of mesh, and initial condition can be changed.
+
+%job script??? what kind of integration do you want?
  
 
 \subsubsection{Grid Generation}
@@ -171,18 +221,143 @@ On a default channel case in Xcompact3d, the refinement are conducted solely for
 
 
 
+\subsubsection{Channel Flow Generalised Richardson Extrapolation Campaign}
+\label{sec:GREP}
+In order to conduct the Generalised Richardson Extrapolation, several channel flow models must be generated with spatial, temporal, and domain size variation. The variation of the simulation models are shown in Table \ref{tab:simmodvar}.
+
+\begin{table}[h!]
+	\centering
+	\caption{Simulation Model Variation}
+	\label{tab:simmodvar}
+	\begin{tabular}{lcccc}
+		\hline
+		\textbf{Mesh Type}       & Finest    & Fine      & Medium   & Coarse   \\ \hline
+		\textbf{$L_x$}              & 8$\pi$ & 4$\pi$ & 2$\pi$ & $\pi$ \\
+		\textbf{$L_y$}              & 2         & 2         & 2        & 2        \\
+		\textbf{$L_z$}              & 3$\pi$  & 1.5$\pi$  & 0.75$\pi$ & 0.375$\pi$ \\
+		\textbf{$N_x$}              & 1024      & 256       & 64       & 16       \\
+		\textbf{$N_y$}              & 1021      & 509       & 256      & 128      \\
+		\textbf{$N_z$}              & 1024      & 256       & 64       & 16       \\
+		\textbf{$N_{t, spinup}$}   & 35000     & 35000     & 35000    & 35000    \\
+		\textbf{$N_{t, warmup}$}   & 40000     & 40000     & 40000    & 40000    \\
+		\textbf{$N_{t, sampling}$} & 200000    & 50000     & 12500    & 3125     \\
+		\textbf{$\Delta t$}        & 0.001     & 0.002     & 0.004    & 0.008    \\
+		\textbf{$t_{tot}$}               & 200       & 100       & 50       & 25       \\ \hline
+	\end{tabular}
+\end{table}
+
+Processing the result of the model variation requires a normalised resolution value so the difference in value can be consistently compared. For that, a normalised resolution is introduced as:
+
+\begin{equation}
+	NR = \frac{\Delta x_e^{current}}{\Delta x_e^{finest}} \frac{\Delta t^{current}}{\Delta t^{finest}} \frac{t_{tot}^{finest}}{t_{tot}^{current}} \frac{L_e^{finest}}{L_e^{current}}
+\end{equation}
+
+Where
+\begin{equation}
+	\Delta x_e = \sqrt[3]{\frac{L_x L_y L_z}{N_x N_y N_z}}
+\end{equation}
+\begin{equation}
+	L_e = \sqrt[3]{L_x L_y L_z}
+\end{equation}
 
 
-\subsubsection{Numerical Simulations: Settings}
-\label{sec:Numerical simulations.Settings}
+\subsubsection{Oscillating Wall Generalised Richardson Extrapolation}
+\label{sec:OscWall}
+Simulating the oscillating wall requires a slight change to the wall boundary condition. By default, the wall is set into a no-slip condition. Therefore, the boundary condition needs to be modified so the wave equation can be included in the wall boundary condition. The base wave equation for the oscillating wall is:
 
+\begin{equation}
+	w(x, t) = A \sin(2\pi \omega t)
+\end{equation}
 
-\subsubsection{Numerical Simulations: Simulations Campaign}
-\label{sec:Numerical simulations.Simulations campaign}
+For the ease of actuation adjustment in different Reynolds number, the wave parameters are non-dimensionalised with wall-normal values \cite{Ricco2021}. The dimensionless variables required are
 
+\begin{equation}
+	A^+ = A/u_\tau
+\end{equation}
+\begin{equation}
+	T^+ = 2\pi \frac{u_\tau^2}{\omega\nu}
+\end{equation}
+\begin{equation}
+	k_x^+ = k_x \frac{\nu}{u_\tau}
+\end{equation}
 
+The values of the wall-normalised parameters are based on past studies \cite{Marusic2021} \cite{Zhou2008TurbulentDR}, tabulated in Table \ref{tab:GCSset}.
 
+\begin{table}[h!]
+	\centering
+	\caption{Oscillation Parameters Variation}
+	\label{tab:GCSset}
+	\begin{tabular}{lccccc}
+		\hline
+		\textbf{Re}& \textbf{$T^+_{osc}$} & \textbf{$A^+$} & \textbf{$k_x^+$}  \\ \hline
+		180 & 100 & 4.9 & 0.0014 \\ \hline
+	\end{tabular}
+\end{table}
 
+For the oscillating wall boundary condition problem, the code must be modified first before compiling, especially for the Navier-Stokes solver, which is named navier.f90. In the said file, the wall z-velocities \textit{uz} for both walls in \textit{pres\_correc} subroutine are changed into the defined wall wave function. In this case, the code was modified into:
+\begin{verbatim}
+!********NCLY==2*************************************
+if (ncly1==2) then
+	if (xstart(2)==1) then
+		do k=1,xsize(3)
+			do i=1,xsize(1)
+				dpdxy1(i,k)=dpdxy1(i,k)*gdt(itr)
+				dpdzy1(i,k)=dpdzy1(i,k)*gdt(itr)
+			enddo
+		enddo
+		do k=1,xsize(3)
+			do i=1,xsize(1)
+				ux(i,1,k)=byx1(i,k)+dpdxy1(i,k)
+				uy(i,1,k)=byy1(i,k)
+				uz(i,1,k)=0.31814*sin(2*3.14159*11.18310*t)
+			enddo
+		enddo
+	endif
+endif
+	
+if (nclyn==2) then
+	if (xend(2)==ny) then
+		do k=1,xsize(3)
+			do i=1,xsize(1)
+				dpdxyn(i,k)=dpdxyn(i,k)*gdt(itr)
+				dpdzyn(i,k)=dpdzyn(i,k)*gdt(itr)
+			enddo
+		enddo
+	endif
+	if (dims(1)==1) then
+		do k=1,xsize(3)
+			do i=1,xsize(1)
+				ux(i,xsize(2),k)=byxn(i,k)+dpdxyn(i,k)
+				uy(i,xsize(2),k)=byyn(i,k)
+				uz(i,xsize(2),k)=0.31814*sin(2*3.14159*11.18310*t)
+			enddo
+		enddo
+	elseif (ny - (nym / dims(1)) == xstart(2)) then
+		do k=1,xsize(3)
+			do i=1,xsize(1)
+				ux(i,xsize(2),k)=byxn(i,k)+dpdxyn(i,k)
+				uy(i,xsize(2),k)=byyn(i,k)
+				uz(i,xsize(2),k)=0.31814*sin(2*3.14159*11.18310*t)
+			enddo
+		enddo
+	endif
+endif
+\end{verbatim}
+
+Understanding and quantifying the efficiency of the flow control method is in utmost importance for this analysis. To calculate the efficiency, the drag reduction is priorly measured using:
+\begin{equation}
+	DR = \frac{\tau_{w,CF} - \tau_{w,osc}}{\tau_{w,CF}} = \frac{p_{CF} - p_{osc}}{p_{CF}}
+\end{equation}
+
+For the net power saving, it is calculated using \cite{Marusic2021}:
+\begin{equation}
+	NPS = DR - p_{in}
+\end{equation} 
+
+Where $p_{in}$ can be calculated using:
+\begin{equation}
+	p_{in} = \frac{1}{p_{CF}T_{av}L_x L_y} \int_{t_i}^{t_f} \int_{0}^{L_x} \int_{0}^{L_z} W \tau_z dx dz dt
+\end{equation}
 
 
 

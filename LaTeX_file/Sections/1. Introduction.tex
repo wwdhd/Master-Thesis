@@ -21,9 +21,7 @@ Fluid flow control has been a major topic in fluid dynamics. Fluid flow control 
 
 Currently, multiple strategies and approaches towards an efficient flow control system are studied. One of recent studies \cite{Marusic2021} suggests that an active flow control strategy in the form of spanwise wall oscillations can generate a positive net power saving value for high Reynolds number regimes. With the finding, a pathway for an industrial-wide application of oscillating wall flow control can be opened and hence a further studies are needed.
 
-In order to further expand the spanwise wall oscillation flow control strategy, understanding the turbulence in the flow is of utmost importance, especially in the near wall region. Turbulence is the chaotic nature of a fluid flow, caused by "a complex interplay of multiple flow patterns occurring simultaneously, making difficult to model and predict accurately" \cite{Alberti2023}. Therefore, intricate physics modelling is generally required to completely simulate the turbulence in the flow, which growingly expensive in terms of computational cost as the Reynolds number increases \cite{Chen2021}. In this paper, ensemble averaging is introduced as a solution for simulating intricate turbulence in a spanwise oscillating wall flow control analysis.
-
-
+In order to further expand the spanwise wall oscillation flow control strategy, understanding the turbulence in the flow is of utmost importance, especially in the near wall region. Turbulence is the chaotic nature of a fluid flow, caused by "a complex interplay of multiple flow patterns occurring simultaneously, making difficult to model and predict accurately" \cite{Alberti2023}. Therefore, intricate physics modelling is generally required to completely simulate the turbulence in the flow, which growingly expensive in terms of computational cost as the Reynolds number increases \cite{Chen2021}. In this paper, direct numerical simulation (DNS) is introduced as a solution for high-fidelity simulation, incorporating generalised Richardson extrapolation to make the analysis time-efficient. This paper will mainly utilises ARCHER2 HPC environment for generating the data to create more efficient simulation.
 
 \subsection{Literature  Review}
 
@@ -104,24 +102,18 @@ Solving turbulence is required in order to create a good model of a fluid flow. 
 
 In cases where the effect of small-scales turbulence are heavily considered, turbulence modelling is fully disregarded. This means that the Navier-Stokes equations are directly solved \cite{Moin1998}. These method of solving the fluid flow is termed Direct Numerical Simulation (DNS). Ideally, DNS should be performed with spatial resolution at least as large as the Kolmogorov scale, which the smallest eddies that can be produced by the flow \cite{Boschung2016}. However, the fine grid resolution will make the analysis prohibitively expensive. Therefore, lower resolution usually preferred to DNS methods. %How much?
 
-\subsubsection{Generalised Richardson Extrapolation}
-In a computational analysis, the domain settings may change the value of the results. The finer the settings is, the higher the quality of the results. However, finer results require high computational resources which limits the resolution of the model. To counter the problem. the Richardson extrapolation is usually used. Richardson extrapolation can be defined as the approximation of the ideal value of convergent value using \cite{roache2009verification}:
+\subsubsection{Grid Convergence and Generalised Richardson Extrapolation}
+A certain confidence to the result must be the base of a computational simulation. The confidence is needed so the result can be applicable and have a good degree of reflecting the physical phenomena of the problem. In CFD, the confidence is build by proving the consistency of the result using grid convergence study (GCS), which introduced by Roache \cite{roache2009verification}. Grid convergence study involves a minimum of 3 different simulation model with resolution variation, generally named as coarse, medium, and fine model \cite{Groves2012}. The resolution of the models are variated using the following relation
+\begin{equation}
+	N = 2^n m + 1
+\end{equation}
+
+The domain settings may change the value of the results. The finer the settings is, the higher the quality of the results. However, finer results require high computational resources which limits the resolution of the model. To counter the problem. the Richardson extrapolation is usually used. Richardson extrapolation can be defined as the approximation of the ideal value of convergent value using \cite{roache2009verification}:
 \begin{equation}
 	f_{h=0} \stackrel{\sim}{=} \frac43 f_1 - \frac13 f_2
 \end{equation}
 
-However, most of the application of Richardson extrapolation are limited to the spatial convergence. The novel method of Richardson extrapolation includes temporal and domain size to determine the best resolution of a computational case. The combined resolution is expressed as:
-
-\begin{equation}
-	Normalised Resolution = \frac{\Delta x_e^{current}}{\Delta x_e^{finest}} \frac{\Delta t^{current}}{\Delta t^{finest}} \frac{t_{tot}^{finest}}{t_{tot}^{current}} \frac{L_e^{finest}}{L_e^{current}}
-\end{equation}
-
-\subsubsection{Sample Averaging}
-To understand the overall trend of a numerical result, the result must be averaged. The averaging is normally done using two different method. First is time averaging, which is the more common practice in CFD analysis. Time averaging involves obtaining the flow properties such as velocities and pressure over a long period of time. After that, the flow value is averaged. This way, the fluctuations during a transient analysis can be avoided, thus making further calculations easier \cite{Kallio2015}. Because of this, the time-averaging method is popular in steady-state analysis \cite{Sodja2007}. However, the long period sampling time requires high computational resources, especially when high-fidelity approaches are used \cite{Makarashvili2016}.
-
-The alternative method of sample averaging is using the ensemble averaging. By definition, ensemble averaging requires "averaging over numerous independent simulations"\cite{Tosi2021}. Ensemble averaging decreases the requirement of computational power, thus making the analysis more efficient, especially in high Reynolds number \cite{Makarashvili2016}. Currently, the method is not popular in fluid dynamics, but the method is commonly used in molecular dynamics, where time-averaging is very costly to perform \cite{Gordiz2015}.
-
-In a practical sense, time and ensemble averaging have a possibility to have the correlating result to one and another. This commonly referred as ergodicity, a statistical property that exhibits that the system has the equal value of ensemble and time averaging \cite{Yamamoto2024}. Turbulent flow, as shown in recent study \cite{Galanti2004}, has known to be ergodic. Therefore, turbulent flow analysis can benefit from both methods without sacrificing the result generation.
+However, most of the application of Richardson extrapolation are limited to the spatial convergence. The novel method of Richardson extrapolation includes temporal and domain size to determine the best resolution of a computational case.
 
 \subsubsection{Xcompact3d}
 \label{sec:litrev_ic3d}
@@ -135,19 +127,43 @@ With the higher order schemes, the simulation can run high fidelity schemes to s
 %%LES method --> simagorinsky
 %%DNS Method???
 
+\subsubsection{High Performance Computing}
+This study massively used HPC environments. Using HPC environments, the simulation can be accelerated into an extent with the increase of number of cores. Commonly, the acceleration is measured by the scalability parameter, which is the measure of the simulation time affected by the problem size and number of workers or cores \cite{Cornell2024}. The scalability result is case-specific, thus every algorithm and different case will result a different scalability results. 
+
+Generally, there are two different methods of measuring scalability \cite{Li2018}. The first is the strong scaling, which expresses the solution time variation with the number of processors for a fixed total problem size. The strong scaling speedup is generally calculated using Amdahl law, which expressed as the following \cite{Amdahl1967}:
+\begin{equation}
+	speedup = \frac{1} {\left(\frac{t_{serial}+t_{parallel}}{N_{proc}}\right)}
+\end{equation}
+
+The second method is the weak scaling. The scaling method expressed the solution time variation relating to the number of processors for a fixed problem size per processor. The weak scaling method utilises the Gustafson law \cite{Gustafson1988}, shown below.
+\begin{equation}
+	scaled speedup = t_{serial} + t_{parallel} \times N_{proc}
+\end{equation}
+
+Another thing to consider when considering HPC services for simulation is the resources required. In ARCHER2, the resources allocated for the simulated is calculated in CU units, which is calculated as \cite{EPCC2024}:
+\begin{equation}
+	CU = N_{nodes} \times t_{wallclock} \times N_{jobs}
+\end{equation}
+
+And the cost required for the CU resources can also be calculated. The cost is calculated in pounds.
+\begin{equation}
+	Cost = CU \times 0.20
+\end{equation}
+
+
 
 \subsubsection{Knowledge Gap}
 \label{sec:litrev_knowgap}
-Current spanwise oscillating wall flow control research lacks a thorough analysis in high Reynolds number. To conduct flow control studies using CFD, researchers must analyse turbulence in great depth, usually using LES or DNS analysis. This leads to high computational expenses. The requirement of high computational power also increased with the increase of Reynolds number. Moreover, the studies conducted uses time--averaged approaches, further pushing the need of ensemble averaging approach as an alternative approach. With this study, future study can hopefully be conducted at a high Reynolds number region that could not be done before.
-
+Current spanwise oscillating wall flow control research lacks a thorough analysis in high Reynolds number. To conduct flow control studies using CFD, researchers must analyse turbulence in great depth, usually using LES or DNS analysis. This leads to high computational expenses. The expensiveness in the analysis is also exacerbated by the common practice of utilising a very large domain with a fine resolution, which makes the analysis in high Reynolds number particularly impossible. In this study, Generalised Richardson Extrapolation is introduced to decrease the computational requirement of the flow control analysis.
 
 \subsection{Aim and Objectives}
-\label{sec:Aim and objectives}
-The aim of the study is to analyse the effectivity of ensemble averaging in numerical analysis of spanwise oscillating wall flow control.
+The aim of this study is to analyse the effectivity of Generalised Richardson Extrapolation in numerical analysis of spanwise oscillating wall flow control.
 
 With this aim, the objectives can be set as the steps to achieve the aim set. The objectives are set as follows:
 \begin{itemize}[noitemsep]
-    \item Generate a channel flow grid as a case for the study
+	\item Introduce Xcompact3d in the HPC environment, paricularly CRESCENT2 and ARCHER2 environment
+	\item Run a simple cylindrical test case in Xcompact3e
+    \item Generate a channel flow grid as a main test case for the study
     \item Generate a generalised Richardson extrapolation by changing the spatial and temporal resolution
     \item Conduct flow simulations of the channel flow with and without spanwise oscillating wall flow control using DNS
     \item Generate and compare the time and ensemble averaging results using post-processing methods

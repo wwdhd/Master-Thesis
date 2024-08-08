@@ -7,32 +7,37 @@
 \contentsline {subsubsection}{\numberline {1.2.1}Physics of Wall Bounded Flow Turbulence}{4}{subsubsection.1.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2}Spanwise Oscillating Wall Flow Control}{6}{subsubsection.1.2.2}%
 \contentsline {subsubsection}{\numberline {1.2.3}Turbulence Modelling}{8}{subsubsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.4}Generalised Richardson Extrapolation}{8}{subsubsection.1.2.4}%
-\contentsline {subsubsection}{\numberline {1.2.5}Sample Averaging}{9}{subsubsection.1.2.5}%
-\contentsline {subsubsection}{\numberline {1.2.6}Xcompact3d}{10}{subsubsection.1.2.6}%
+\contentsline {subsubsection}{\numberline {1.2.4}Grid Convergence and Generalised Richardson Extrapolation}{8}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}Xcompact3d}{9}{subsubsection.1.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.6}High Performance Computing}{9}{subsubsection.1.2.6}%
 \contentsline {subsubsection}{\numberline {1.2.7}Knowledge Gap}{10}{subsubsection.1.2.7}%
-\contentsline {subsection}{\numberline {1.3}Aim and Objectives}{10}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.3}Aim and Objectives}{11}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Synopsis}{11}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Methodology}{12}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Flow Problem of Interest}{12}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Theoretical Background}{13}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Governing Equations of Incompressible Fluid Flow}{13}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Cylindrical Flow}{12}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Channel Flow}{12}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Theoretical Background}{14}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Governing Equations of Incompressible Fluid Flow}{14}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Fractional Step Method}{14}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}Spatial Discretisation}{15}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Temporal Discretisation}{15}{subsubsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.3}Computational Procedures}{15}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Grid Generation}{15}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Numerical Simulations: Settings}{16}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Numerical Simulations: Simulations Campaign}{16}{subsubsection.2.3.3}%
-\contentsline {section}{\numberline {3}Results and Discussion}{17}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Flow Problem of Interest}{17}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Aerodynamic Efficiency}{17}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Flow Physics}{17}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Pressure and Moment Coefficients}{17}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}Viscous Flow}{17}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Off-Design Conditions}{17}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Conclusions and Recommendations}{18}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Conclusions}{18}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Recommendations for Future Work}{18}{subsection.4.2}%
-\contentsline {section}{References}{19}{section*.15}%
-\contentsline {section}{\numberline {A}Software Choice}{26}{appendix.A}%
+\contentsline {subsubsection}{\numberline {2.2.4}Temporal Discretisation}{16}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Computational Procedures}{16}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Xcompact3d Setup}{16}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Grid Generation}{17}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Channel Flow Generalised Richardson Extrapolation Campaign}{18}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Oscillating Wall Generalised Richardson Extrapolation}{18}{subsubsection.2.3.4}%
+\contentsline {section}{\numberline {3}Results and Discussion}{22}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Channel Flow Results}{22}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Grid Convergence Study and Generalised Richardson Extrapolation Result}{22}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Mean Streamwise Velocity}{23}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Reynolds Stresses}{24}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Velocity Distribution}{24}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}Pressure and Moment Coefficients}{24}{subsubsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.2}Viscous Flow}{24}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Off-Design Conditions}{24}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Conclusions and Recommendations}{25}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Conclusions}{25}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Recommendations for Future Work}{25}{subsection.4.2}%
+\contentsline {section}{References}{26}{section*.21}%
+\contentsline {section}{\numberline {A}Software Choice}{33}{appendix.A}%
