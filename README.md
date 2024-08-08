@@ -24,7 +24,7 @@ tail -f x3d2.log
 ```
 In HPC environment, the same command is used, just ensure the job scheduler format is followed.
 
-##Py4Incompact3d Download and Compiling
+## Py4Incompact3d Download and Compiling
 Before compiling, it is important to have the Python module, downloaded using ` sudo apt install python3-pip`. To compile and install Py4Incompact3d in Ubuntu:
 ```bash
 git clone https://github.com/xcompact3d/Py4Incompact3D
