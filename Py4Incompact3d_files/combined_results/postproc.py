@@ -44,6 +44,15 @@ upyp_fs = np.loadtxt('upyp240000.dat', skiprows=1)
 
 upyp_ref = np.loadtxt('upyp_reference.dat')
 
+#Reynolds Stresses
+upup_c = np.loadtxt('upup43125.dat', skiprows=1)
+upup_m = np.loadtxt('upup52500.dat', skiprows=1)
+upup_f = np.loadtxt('upup90000.dat', skiprows=1)
+upup_fs = np.loadtxt('upup240000.dat', skiprows=1)
+
+upup_ref = np.loadtxt('upup_reference.dat')
+
+
 
 ######################################################################################
 
@@ -64,7 +73,48 @@ def main():
     #Calculate u_tau
     u_tau = np.sqrt(cf_new / 2)
 
-    plot_upyp(upyp_c, upyp_m, upyp_f, upyp_fs, upyp_ref, nu, u_tau)
+    #plot_upyp(upyp_c, upyp_m, upyp_f, upyp_fs, upyp_ref, nu, u_tau)
+
+    yp_c = upup_c[:,0]
+    upup_c_a = upup_c[:,1]
+
+    yp_m = upup_m[:,0]
+    upup_m_a = upup_m[:,1]*1.43
+
+    yp_f = upup_f[:,0]
+    upup_f_a = upup_f[:,1]*1.43
+
+    yp_fs = upup_fs[:,0]
+    upup_fs_a = upup_fs[:,1]
+
+    yp_ref = upup_ref[:,1]
+    upup_ref_a = upup_ref[:,2]*15.55556
+
+
+    plt.plot(yp_c, upup_c_a, label='Coarse Grid', color="black")
+    plt.plot(yp_m, upup_m_a, label='Medium Grid', color="blue")
+    plt.plot(yp_f, upup_f_a, label='Fine Grid', color="green")
+    plt.plot(yp_fs, upup_fs_a, label='Finest Grid', color="orange")
+
+    plt.plot(yp_ref, upup_ref_a, label='Reference', color="red", linestyle="dotted")
+
+
+    # Add labels and title for the first plot
+    plt.xlim(1.054557883895367e-02, 1.805584715562184e+02)
+    plt.xlabel(r'y$^+$')
+    plt.xscale('log')
+    plt.ylabel(r'$\langle u \rangle^+$')
+    plt.legend(frameon=False)
+    plt.show()
+    plt.savefig('upup.png', bbox_inches='tight')
+
+
+    
+
+
+
+
+
 
     
 
@@ -226,7 +276,6 @@ def plot_upyp(upyp_c, upyp_m, upyp_f, upyp_fs, upyp_ref, nu, u_tau):
     plt.tight_layout()
     plt.savefig('upyp.png', bbox_inches='tight')
     plt.clf()
-    ######################################################################################
     
 
 if __name__ == "__main__":
