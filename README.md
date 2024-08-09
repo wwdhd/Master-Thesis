@@ -1,4 +1,5 @@
 # Master Thesis
+In this study, Generalised Richardson Extrapolation (GREP) is examined in terms of effectivity and efficiency in a Oscillating Wall Flow Control Analysis. The analysis also used standard channel flow as a comparison for the study. To analyse the effects of the oscillating wall flow control as well as the effect of turbulence, DNS is used as the simulation method. Incompact3d is a fast, yet accurate software to run DNS flow simulations.
 
 ## Incompact3d Compiling
 Before compiling, cmake and mpich modules must be installed into Ubuntu, using `sudo apt install mpich` and `sudo apt install cmake`. If they are unable to be downloaded, make sure Ubuntu is already up to date using `sudo apt update` and then `sudo apt upgrade`. If you are using HPC environment, loading cmake and mpich module (or openMPI in some cases) is important.
@@ -8,7 +9,6 @@ To compile and run the incompact3d (substitute ncores with the number of desired
 ```bash
 git clone https://github.com/wwdhd/master_thesis.git
 cd Incompact3d_osc180
-cd ../
 export FC=mpif90
 cmake -S . -B build
 cd build
