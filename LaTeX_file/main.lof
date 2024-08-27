@@ -1,8 +1,17 @@
 \babel@toc {english}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Drag and Reduction Potential in a General Aircraft~\blx@tocontentsinit {0}\cite {Abbas2017}}}{3}{figure.caption.10}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Near Wall Coherent Structures: A) Hairpin Vortex ; B) Low momentum region; C) high momentum region; D) counter-rotating quasi-streamwise vortices~\blx@tocontentsinit {0}\cite {Tamas2019}}}{5}{figure.caption.11}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Typical Energy Spectrum in a Flow ~\blx@tocontentsinit {0}\cite {kalmar-Nagy2019}}}{6}{figure.caption.12}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Minimal Flow Unit of a Double Periodic Channel Flow~\blx@tocontentsinit {0}\cite {Jimenez1991}}}{13}{figure.caption.14}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Grid Convergence Study with Generalised Richardson Extrapolation}}{22}{figure.caption.18}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Mean Streamwise Velocity}}{23}{figure.caption.19}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Streamwise Velocity Changes in a Channel Flow}}{24}{figure.caption.20}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Drag and Reduction Potential in a General Aircraft~\blx@tocontentsinit {0}\cite {Abbas2017}}}{4}{figure.caption.10}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Near Wall Coherent Structures}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Typical Energy Spectrum in a Flow ~\blx@tocontentsinit {0}\cite {kalmar-Nagy2019}}}{7}{figure.caption.12}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Minimal Flow Unit of a Double Periodic Channel Flow~\blx@tocontentsinit {0}\cite {Jimenez1991}}}{14}{figure.caption.14}%
+\contentsline {figure}{\numberline {5}{\ignorespaces $u$ Velocity Contour of Laminar Flow Around a Cylinder Case}}{23}{figure.caption.18}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Mean Velocity and Velocity RMS Profile for the Cylinder Wake Flow}}{24}{figure.caption.19}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Coefficient of Friction Results of Different Mesh Resolution Models Combined With Generalised Richardson Extrapolation Results}}{25}{figure.caption.22}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Mean Streamwise Velocity}}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Reynolds Stress Tensor Components of the Simple Channel Flow}}{28}{figure.caption.24}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Generalised Richardson Extrapolation of the Reynolds Stress Tensor Terms}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Coefficient of Friction Results of Uncontrolled Channel Flow and Oscillating Wall Flow Control Applied}}{31}{figure.caption.27}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Mean Streamwise Velocity of the Channel Flow with Spanwise Oscillating Wall Flow Control}}{32}{figure.caption.29}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Reference Wall Normal Velocity Value~\blx@tocontentsinit {0}\cite {Zhou2008TurbulentDR}}}{32}{figure.caption.30}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Reynolds Stress Tensor Components of the Spanwise Oscillating Flow Control Case}}{33}{figure.caption.31}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Generalised Richardson Extrapolation of the Reynolds Stress Tensor Components in the Channel Flow with Spanwise Oscillating Wall Flow Control}}{35}{figure.caption.32}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Instantaneous Velocity Contour of a) Simple Channel Flow and b) Channel Flow with Spanwise Oscillating Flow Control}}{36}{figure.caption.33}%

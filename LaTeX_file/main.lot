@@ -1,6 +1,10 @@
 \babel@toc {english}{}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces Experimental and Computational Studies of Spanwise Oscillating Wall Flow Control}}{7}{table.1}%
-\contentsline {table}{\numberline {2}{\ignorespaces Cylinder Wake Case Parameters}}{12}{table.caption.13}%
-\contentsline {table}{\numberline {3}{\ignorespaces Fluid Properties}}{14}{table.caption.15}%
-\contentsline {table}{\numberline {4}{\ignorespaces Simulation Model Variation}}{18}{table.caption.16}%
-\contentsline {table}{\numberline {5}{\ignorespaces Oscillation Parameters Variation}}{19}{table.caption.17}%
+\contentsline {table}{\numberline {1}{\ignorespaces Experimental and Computational Studies of Spanwise Oscillating Wall Flow Control}}{8}{table.1}%
+\contentsline {table}{\numberline {2}{\ignorespaces Cylinder Wake Case Parameters}}{13}{table.caption.13}%
+\contentsline {table}{\numberline {3}{\ignorespaces Fluid Properties}}{15}{table.caption.15}%
+\contentsline {table}{\numberline {4}{\ignorespaces Simulation Model Variation}}{19}{table.caption.16}%
+\contentsline {table}{\numberline {5}{\ignorespaces Oscillation Parameters Variation}}{21}{table.caption.17}%
+\contentsline {table}{\numberline {6}{\ignorespaces Resources Requirement for Various Mesh Resolutions}}{24}{table.caption.20}%
+\contentsline {table}{\numberline {7}{\ignorespaces Grid Convergence Parameters}}{25}{table.caption.21}%
+\contentsline {table}{\numberline {8}{\ignorespaces Resources Requirement for Various Mesh Resolutions for the Oscillating Wall Boundary Condition}}{30}{table.caption.26}%
+\contentsline {table}{\numberline {9}{\ignorespaces Oscillating Wall Flow Control Performance, Compared with Reference Data~\blx@tocontentsinit {0}\cite {Zhou2008TurbulentDR}}}{31}{table.caption.28}%

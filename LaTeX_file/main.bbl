@@ -2086,18 +2086,17 @@
     \endentry
     \entry{NASA_Re}{misc}{}
       \name{author}{1}{}{%
-        {{hash=74cecf9f14e1430653c21ccfe0ec7311}{%
-           family={Center},
-           familyi={C\bibinitperiod},
-           given={NASA\bibnamedelimb Glenn\bibnamedelima Research},
-           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a3e62e3f303a726970106d973c981189}{%
+           family={{NASA Glenn Research Center}},
+           familyi={N\bibinitperiod}}}%
       }
-      \strng{namehash}{74cecf9f14e1430653c21ccfe0ec7311}
-      \strng{fullhash}{74cecf9f14e1430653c21ccfe0ec7311}
-      \strng{bibnamehash}{74cecf9f14e1430653c21ccfe0ec7311}
-      \strng{authorbibnamehash}{74cecf9f14e1430653c21ccfe0ec7311}
-      \strng{authornamehash}{74cecf9f14e1430653c21ccfe0ec7311}
-      \strng{authorfullhash}{74cecf9f14e1430653c21ccfe0ec7311}
+      \strng{namehash}{a3e62e3f303a726970106d973c981189}
+      \strng{fullhash}{a3e62e3f303a726970106d973c981189}
+      \strng{bibnamehash}{a3e62e3f303a726970106d973c981189}
+      \strng{authorbibnamehash}{a3e62e3f303a726970106d973c981189}
+      \strng{authornamehash}{a3e62e3f303a726970106d973c981189}
+      \strng{authorfullhash}{a3e62e3f303a726970106d973c981189}
+      \field{extraname}{1}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -2601,6 +2600,32 @@
       \endverb
       \keyw{Incompressible Navier-Stokes equations,Poisson equation,Stretching function}
     \endentry
+    \entry{NASA_GridConv}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a3e62e3f303a726970106d973c981189}{%
+           family={{NASA Glenn Research Center}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3e62e3f303a726970106d973c981189}
+      \strng{fullhash}{a3e62e3f303a726970106d973c981189}
+      \strng{bibnamehash}{a3e62e3f303a726970106d973c981189}
+      \strng{authorbibnamehash}{a3e62e3f303a726970106d973c981189}
+      \strng{authornamehash}{a3e62e3f303a726970106d973c981189}
+      \strng{authorfullhash}{a3e62e3f303a726970106d973c981189}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Examining Spatial (Grid) Convergence}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.grc.nasa.gov/www/wind/valid/tutorial/spatconv.html
+      \endverb
+      \verb{url}
+      \verb https://www.grc.nasa.gov/www/wind/valid/tutorial/spatconv.html
+      \endverb
+    \endentry
     \entry{Zhou2008TurbulentDR}{article}{}
       \name{author}{2}{}{%
         {{hash=158d306d88763fce56a5b90184e1b5b8}{%
@@ -2620,8 +2645,8 @@
       \strng{authorbibnamehash}{fcef3cd43a9c15d2767a9751fdb751ee}
       \strng{authornamehash}{fcef3cd43a9c15d2767a9751fdb751ee}
       \strng{authorfullhash}{fcef3cd43a9c15d2767a9751fdb751ee}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International journal of engineering. Transactions A: basics}
@@ -2636,6 +2661,135 @@
       \verb{url}
       \verb https://api.semanticscholar.org/CorpusID:17940071
       \endverb
+    \endentry
+    \entry{Rodriguez-Sevillano2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0fd774a457f45b7aac028f7019aad5f2}{%
+           family={Rodriguez-Sevillano},
+           familyi={R\bibinithyphendelim S\bibinitperiod},
+           given={Angel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3b93d5becb12e7cd8cdb8270cd6a1e1f}{%
+           family={Barcala-Montejano},
+           familyi={B\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima Ángel},
+           giveni={M\bibinitperiod\bibinitdelim Á\bibinitperiod}}}%
+        {{hash=e30e1a63f56927e81442afcb917b4baf}{%
+           family={Bardera-Mora},
+           familyi={B\bibinithyphendelim M\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=74e9f51af29f82676a25d463b20fffe9}{%
+           family={Batuecas-Fuejo},
+           familyi={B\bibinithyphendelim F\bibinitperiod},
+           given={Jonás},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{11b6e8d7d6074b0c677c6034f98eec8f}
+      \strng{fullhash}{b0d660a5e3d0f995634200f750fca064}
+      \strng{bibnamehash}{b0d660a5e3d0f995634200f750fca064}
+      \strng{authorbibnamehash}{b0d660a5e3d0f995634200f750fca064}
+      \strng{authornamehash}{11b6e8d7d6074b0c677c6034f98eec8f}
+      \strng{authorfullhash}{b0d660a5e3d0f995634200f750fca064}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{American Journal of Science and Technology}
+      \field{title}{Flow Study over Bluff Bodies Based on Visualization Technique}
+      \field{volume}{4}
+      \field{year}{2017}
+      \field{pages}{97\bibrangedash 104}
+      \range{pages}{8}
+    \endentry
+    \entry{Rodriguez-Sevillano2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e75d5fd8f629aab5cc8f66e09e31308f}{%
+           family={Rodríguez-Sevillano},
+           familyi={R\bibinithyphendelim S\bibinitperiod},
+           given={Ángel\bibnamedelima Antonio},
+           giveni={Á\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=82da5bfa5f0633e5bb39c6e88d3ec50a}{%
+           family={Casati-Calzada},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={María\bibnamedelima Jesús},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e30e1a63f56927e81442afcb917b4baf}{%
+           family={Bardera-Mora},
+           familyi={B\bibinithyphendelim M\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=778ecde050d2a6fd30f486600089d101}{%
+           family={Feliz-Huidobro},
+           familyi={F\bibinithyphendelim H\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=724c02f6280b11055ebe44a57325eb67}{%
+           family={Calle-González},
+           familyi={C\bibinithyphendelim G\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b4ee59db378e830a8a684cfa8210e8a8}{%
+           family={Fernández-Antón},
+           familyi={F\bibinithyphendelim A\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea314ec74b6d2a866faf16d66174f7df}
+      \strng{fullhash}{2a45cbef21ad1619950c7de631072133}
+      \strng{bibnamehash}{2a45cbef21ad1619950c7de631072133}
+      \strng{authorbibnamehash}{2a45cbef21ad1619950c7de631072133}
+      \strng{authornamehash}{ea314ec74b6d2a866faf16d66174f7df}
+      \strng{authorfullhash}{2a45cbef21ad1619950c7de631072133}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2673-3161}
+      \field{journaltitle}{Applied Mechanics}
+      \field{number}{4}
+      \field{title}{Flow Study on the Anemometers of the Perseverance Based on Towing Tank Visualization}
+      \field{volume}{3}
+      \field{year}{2022}
+      \field{pages}{1385\bibrangedash 1398}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.3390/applmech3040079
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2673-3161/3/4/79
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2673-3161/3/4/79
+      \endverb
+    \endentry
+    \entry{Mittal1997}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=c6c1a9fb97671ae612c1d765ba2faaa7}{%
+           family={Mittal},
+           familyi={M\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cb3bde85c90a61bd1b82679ee08c2303}{%
+           family={Balachandar},
+           familyi={B\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{630bed9587cbffc738b61d4da86de24c}
+      \strng{fullhash}{630bed9587cbffc738b61d4da86de24c}
+      \strng{bibnamehash}{630bed9587cbffc738b61d4da86de24c}
+      \strng{authorbibnamehash}{630bed9587cbffc738b61d4da86de24c}
+      \strng{authornamehash}{630bed9587cbffc738b61d4da86de24c}
+      \strng{authorfullhash}{630bed9587cbffc738b61d4da86de24c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The 1997 ASME Fluids Engineering Division Summer Meeting}
+      \field{title}{On the Inclusion of Three-Dimensional Effects in Simulations of Two-Dimensional Bluff-Body Wake Flows}
+      \field{year}{1997}
     \endentry
     \entry{Lee_Moser_2015}{article}{}
       \name{author}{2}{}{%
@@ -2671,36 +2825,346 @@
       \verb 10.1017/jfm.2015.268
       \endverb
     \endentry
-    \entry{Cengel2019}{book}{}
-      \name{author}{2}{}{%
-        {{hash=7393c064ff2624f0f01cf6b2b0759040}{%
-           family={Cengel},
-           familyi={C\bibinitperiod},
-           given={Yunus\bibnamedelima A.},
-           giveni={Y\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=4dc0a28ea2a5cecc3e3186bac0fab28e}{%
-           family={Cimbala},
-           familyi={C\bibinitperiod},
-           given={John\bibnamedelima M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+    \entry{MUNK2009148}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=9a04d28c52742c0254ade54cecc63f07}{%
+           family={Munk},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=33e2bd56779f0bacf692c8ac435d1662}{%
+           family={Kane},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a5182c29cfae551da5735dcbd7b88b83}{%
+           family={Yebra},
+           familyi={Y\bibinitperiod},
+           given={D.M.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=ca526a93ca00b61a650cb322cebbb5a5}{%
+           family={Hellio},
+           familyi={H\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9fdeeb23d0ed67f93b53e709236b9929}{%
+           family={Yebra},
+           familyi={Y\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {McGraw-Hill}%
+        {Woodhead Publishing}%
       }
-      \strng{namehash}{a534c3ed06e01f3fcea39c26621ce1db}
-      \strng{fullhash}{a534c3ed06e01f3fcea39c26621ce1db}
-      \strng{bibnamehash}{a534c3ed06e01f3fcea39c26621ce1db}
-      \strng{authorbibnamehash}{a534c3ed06e01f3fcea39c26621ce1db}
-      \strng{authornamehash}{a534c3ed06e01f3fcea39c26621ce1db}
-      \strng{authorfullhash}{a534c3ed06e01f3fcea39c26621ce1db}
+      \strng{namehash}{f7d74c712d382fb53fb40191a5ca0bd0}
+      \strng{fullhash}{f7d74c712d382fb53fb40191a5ca0bd0}
+      \strng{bibnamehash}{f7d74c712d382fb53fb40191a5ca0bd0}
+      \strng{authorbibnamehash}{f7d74c712d382fb53fb40191a5ca0bd0}
+      \strng{authornamehash}{f7d74c712d382fb53fb40191a5ca0bd0}
+      \strng{authorfullhash}{f7d74c712d382fb53fb40191a5ca0bd0}
+      \strng{editorbibnamehash}{c6f7a1818101def41e7b528c18a9bdcb}
+      \strng{editornamehash}{c6f7a1818101def41e7b528c18a9bdcb}
+      \strng{editorfullhash}{c6f7a1818101def41e7b528c18a9bdcb}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{4th}
-      \field{month}{1}
-      \field{title}{Fluid Mechanics: Fundamentals and Applications}
-      \field{year}{2019}
+      \field{booktitle}{Advances in Marine Antifouling Coatings and Technologies}
+      \field{isbn}{978-1-84569-386-2}
+      \field{series}{Woodhead Publishing Series in Metals and Surface Engineering}
+      \field{title}{The effects of corrosion and fouling on the performance of ocean-going vessels: a naval architectural perspective}
+      \field{year}{2009}
+      \field{pages}{148\bibrangedash 176}
+      \range{pages}{29}
+      \verb{doi}
+      \verb https://doi.org/10.1533/9781845696313.1.148
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9781845693862500077
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9781845693862500077
+      \endverb
+    \endentry
+    \entry{Southard2024}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=e8adc2fb75fe5420131a81f41a259727}{%
+           family={Southard},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT OpenCourseWare}%
+      }
+      \strng{namehash}{e8adc2fb75fe5420131a81f41a259727}
+      \strng{fullhash}{e8adc2fb75fe5420131a81f41a259727}
+      \strng{bibnamehash}{e8adc2fb75fe5420131a81f41a259727}
+      \strng{authorbibnamehash}{e8adc2fb75fe5420131a81f41a259727}
+      \strng{authornamehash}{e8adc2fb75fe5420131a81f41a259727}
+      \strng{authorfullhash}{e8adc2fb75fe5420131a81f41a259727}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Introduction to Fluid Motions and Sediment Transport}
+      \field{title}{Structure of Turbulent Boundary Layers}
+      \field{year}{2024}
+    \endentry
+    \entry{Marusic2013}{article}{}
+      \name{author}{4}{}{%
+        {{hash=50156ed74cbf0d57dea65c5919e52e43}{%
+           family={Marusic},
+           familyi={M\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=37b3e32423df48fb7bb038763af93b3e}{%
+           family={Monty},
+           familyi={M\bibinitperiod},
+           given={Jason\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e07ef1fcbfcda355d7d93aef4017ed4d}{%
+           family={Hultmark},
+           familyi={H\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=86ccc2e613a3e58649dd16be5100b532}{%
+           family={Smits},
+           familyi={S\bibinitperiod},
+           given={Alexander\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{021f7d16cf650a7f63169982c9d471b9}
+      \strng{fullhash}{c0eecd6cb637fea6ea678f655b90a392}
+      \strng{bibnamehash}{c0eecd6cb637fea6ea678f655b90a392}
+      \strng{authorbibnamehash}{c0eecd6cb637fea6ea678f655b90a392}
+      \strng{authornamehash}{021f7d16cf650a7f63169982c9d471b9}
+      \strng{authorfullhash}{c0eecd6cb637fea6ea678f655b90a392}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-1120}
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{month}{2}
+      \field{title}{On the logarithmic region in wall turbulence}
+      \field{volume}{716}
+      \field{year}{2013}
+      \field{pages}{R3}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1017/jfm.2012.511
+      \endverb
+    \endentry
+    \entry{MATHIS_HUTCHINS_MARUSIC_2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0414f9afdce4d127322852cc7be4c697}{%
+           family={MATHIS},
+           familyi={M\bibinitperiod},
+           given={ROMAIN},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0307d7cdbb5fe64f1c6fb131d1eec834}{%
+           family={HUTCHINS},
+           familyi={H\bibinitperiod},
+           given={NICHOLAS},
+           giveni={N\bibinitperiod}}}%
+        {{hash=756dfa33e43ac5dcffdd4b5b678a1835}{%
+           family={MARUSIC},
+           familyi={M\bibinitperiod},
+           given={IVAN},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{92894891f8726996d47f96bda6c5c0ee}
+      \strng{fullhash}{92894891f8726996d47f96bda6c5c0ee}
+      \strng{bibnamehash}{92894891f8726996d47f96bda6c5c0ee}
+      \strng{authorbibnamehash}{92894891f8726996d47f96bda6c5c0ee}
+      \strng{authornamehash}{92894891f8726996d47f96bda6c5c0ee}
+      \strng{authorfullhash}{92894891f8726996d47f96bda6c5c0ee}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{title}{Large-scale amplitude modulation of the small-scale structures in turbulent boundary layers}
+      \field{volume}{628}
+      \field{year}{2009}
+      \field{pages}{311\bibrangedash 337}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1017/S0022112009006946
+      \endverb
+    \endentry
+    \entry{Choi_Moin_Kim_1993}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7888902881553c7a6ae2007e7eb1caa8}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Haecheon},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8853dff8f39e11829340cc196aaaeda6}{%
+           family={Moin},
+           familyi={M\bibinitperiod},
+           given={Parviz},
+           giveni={P\bibinitperiod}}}%
+        {{hash=13f5b9e17c13317d94d1ea5da03f7d38}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0c4af01894faa89fcdabe796a09bdb2}
+      \strng{fullhash}{c0c4af01894faa89fcdabe796a09bdb2}
+      \strng{bibnamehash}{c0c4af01894faa89fcdabe796a09bdb2}
+      \strng{authorbibnamehash}{c0c4af01894faa89fcdabe796a09bdb2}
+      \strng{authornamehash}{c0c4af01894faa89fcdabe796a09bdb2}
+      \strng{authorfullhash}{c0c4af01894faa89fcdabe796a09bdb2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{title}{Direct numerical simulation of turbulent flow over riblets}
+      \field{volume}{255}
+      \field{year}{1993}
+      \field{pages}{503\bibrangedash 539}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1017/S0022112093002575
+      \endverb
+    \endentry
+    \entry{Agostini_Touber_Leschziner_2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0fedd2b0ea20e5cadeceec0411e68a19}{%
+           family={Agostini},
+           familyi={A\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d5ec6aee9ac1083f214b5fd03f0425bc}{%
+           family={Touber},
+           familyi={T\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=23786c42600294d69f72e4efae097962}{%
+           family={Leschziner},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b253d8d77ddacf798b6742358eb3278}
+      \strng{fullhash}{4b253d8d77ddacf798b6742358eb3278}
+      \strng{bibnamehash}{4b253d8d77ddacf798b6742358eb3278}
+      \strng{authorbibnamehash}{4b253d8d77ddacf798b6742358eb3278}
+      \strng{authornamehash}{4b253d8d77ddacf798b6742358eb3278}
+      \strng{authorfullhash}{4b253d8d77ddacf798b6742358eb3278}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{title}{Spanwise oscillatory wall motion in channel flow: drag-reduction mechanisms inferred from DNS-predicted phase-wise property variations at $\textit {Re}_{\boldsymbol {\boldsymbol{\tau}}} =1000$}
+      \field{volume}{743}
+      \field{year}{2014}
+      \field{pages}{606\bibrangedash 635}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1017/jfm.2014.40
+      \endverb
+    \endentry
+    \entry{Xu2004}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3c9a8533ae2da02a418dcf8d2526be81}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Chun-Xiao},
+           giveni={C\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=0e1ff0ee8f4d6ebc8ad7f6d7536acece}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Wei-Xi},
+           giveni={W\bibinithyphendelim X\bibinitperiod}}}%
+      }
+      \strng{namehash}{52f65ee0bcd380b531c480989c5a2147}
+      \strng{fullhash}{52f65ee0bcd380b531c480989c5a2147}
+      \strng{bibnamehash}{52f65ee0bcd380b531c480989c5a2147}
+      \strng{authorbibnamehash}{52f65ee0bcd380b531c480989c5a2147}
+      \strng{authornamehash}{52f65ee0bcd380b531c480989c5a2147}
+      \strng{authorfullhash}{52f65ee0bcd380b531c480989c5a2147}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1070-6631}
+      \field{journaltitle}{Physics of Fluids}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{{Transient response of Reynolds stress transport to spanwise wall oscillation in a turbulent channel flow}}
+      \field{volume}{17}
+      \field{year}{2004}
+      \field{pages}{018101-018101\bibrangedash 4}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1063/1.1827274
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/pof/article-pdf/17/1/018101/14692654/018101\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.1827274
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.1827274
+      \endverb
+    \endentry
+    \entry{Umair2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=987ac4135622633287cacf0b4c2d9528}{%
+           family={Umair},
+           familyi={U\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1fe0accc7d40d58507fc0a98ddbaa383}{%
+           family={Tardu},
+           familyi={T\bibinitperiod},
+           given={Sedat},
+           giveni={S\bibinitperiod}}}%
+        {{hash=54ae974a2f3bf09ef014c97873dd49b9}{%
+           family={Doche},
+           familyi={D\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9512699630e230f402857c5441618795}
+      \strng{fullhash}{9512699630e230f402857c5441618795}
+      \strng{bibnamehash}{9512699630e230f402857c5441618795}
+      \strng{authorbibnamehash}{9512699630e230f402857c5441618795}
+      \strng{authornamehash}{9512699630e230f402857c5441618795}
+      \strng{authorfullhash}{9512699630e230f402857c5441618795}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. Fluids}
+      \field{month}{5}
+      \field{title}{Reynolds stresses transport in a turbulent channel flow subjected to streamwise traveling waves}
+      \field{volume}{7}
+      \field{year}{2022}
+      \field{pages}{054601}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevFluids.7.054601
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevFluids.7.054601
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevFluids.7.054601
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
